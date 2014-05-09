@@ -1,0 +1,49 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+my $defaultxml="default.xml";
+my $tmpl="local_manifest.xml.template";
+my $localxml="local_manifest.xml";
+my $keep="keep.pathlist";
+
+my %keep;
+if (open my $KEEP, "<", $keep) {
+  while (<$KEEP>) {
+    next if /^\s*#/; # skip comments
+    chomp;
+    s/\s+$//;
+    $keep{$_} = 1;
+  }
+} else { die; }
+
+open my $TMPL, "<", $tmpl or die;
+open my $LOCALXML, ">", $localxml or die;
+open my $DEFAULTXML, "<", $defaultxml or die;
+
+while (<$TMPL>) {
+  last if /REMOVELIST/;
+  print $LOCALXML $_;
+}
+
+while (<$DEFAULTXML>) {
+  next unless /<project/;
+
+  next unless /path="([^"]+)"/;
+  my $path = $1;
+
+  if (defined $keep{$path}) {
+    s/^/<!-- /;
+    s/$/ -->/;
+  } else {
+    if (! /\/>$/ ) {
+      s(>$)(/>);
+    }
+    s/<project/<remove-project/;
+  }
+  print $LOCALXML $_;
+}
+
+while (<$TMPL>) {
+  print $LOCALXML $_;
+}

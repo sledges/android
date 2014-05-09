@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="mer-hybris"
+           fetch=".." />
+  <default revision="refs/tags/hybris-aosp-4.4.2_r2"
+           remote="mer-hybris"
+           sync-j="4" />
+
+<!-- Hybris extras -->
+  <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/>
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="hybris-10.1"/>
+
+<!-- Hybris overrides -->
+  <project path="build" name="mer-hybris/build" groups="pdk" remote="github" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="bionic" name="mer-hybris/bionic" groups="pdk" remote="github"/>
+  <project path="bionic" name="mer-hybris/bionic" groups="pdk" remote="github"/>
+  <project path="libcore" name="mer-hybris/android_libcore" remote="github" revision="hybris-10.1"/>
+  <project path="system/core" name="mer-hybris/android_system_core" remote="github" revision="hybris-10.1"/>
+  <project path="hardware/ril" name="mer-hybris/android_hardware_ril" remote="github" revision="hybris-10.1"/>
+  <project path="external/busybox" name="mer-hybris/android_external_busybox" remote="github" revision="hybris-10.1"/>
+  <project path="external/protobuf" name="mer-hybris/android_external_protobuf" remote="github" revision="hybris-10.1"/>
+  <project path="external/liblzf" name="mer-hybris/android_external_liblzf" remote="github" revision="hybris-10.1"/>
+  <project path="frameworks/base" name="mer-hybris/android_frameworks_base" remote="github" revision="hybris-10.1"/> 
+
+
+
+<!-- Remove all aosp projects - comment out ones to keep
+     This is a direct copy of all projects in AOSP with s/<project/<remove-project/
+     apart from those in the keep.pathlist
+-->
+
+<!-- REMOVELIST -->
+
+</manifest>
