@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
 
-  <remote  name="mer-hybris"
+  <remote  name="github"
            fetch=".." />
+
   <default revision="refs/tags/hybris-aosp-4.4.2_r2"
-           remote="mer-hybris"
+           remote="aosp"
            sync-j="4" />
 
 <!-- Hybris extras -->
