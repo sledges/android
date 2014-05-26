@@ -4,7 +4,7 @@ use strict;
 
 my $defaultxml="default.xml";
 my $tmpl="local_manifest.xml.template";
-my $localxml="local_manifest.xml";
+my $localxml="local_manifests/hybris-aosp-4.4.2_r2.xml";
 my $keep="keep.pathlist";
 
 my %keep;

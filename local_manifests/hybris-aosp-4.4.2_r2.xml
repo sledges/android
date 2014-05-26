@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!--  <remove-remote  name="aosp" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+-->
 
-  <remote  name="mer-hybris"
-           fetch=".." />
-  <default revision="refs/tags/hybris-aosp-4.4.2_r2"
-           remote="mer-hybris"
-           sync-j="4" />
-
-<!-- Hybris extras -->
-  <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/>
-  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="hybris-10.1"/>
-
-<!-- Hybris overrides -->
-  <project path="build" name="mer-hybris/build" groups="pdk" remote="github" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="bionic" name="mer-hybris/bionic" groups="pdk" remote="github"/>
-  <project path="bionic" name="mer-hybris/bionic" groups="pdk" remote="github"/>
-  <project path="libcore" name="mer-hybris/android_libcore" remote="github" revision="hybris-10.1"/>
-  <project path="system/core" name="mer-hybris/android_system_core" remote="github" revision="hybris-10.1"/>
-  <project path="hardware/ril" name="mer-hybris/android_hardware_ril" remote="github" revision="hybris-10.1"/>
-  <project path="external/busybox" name="mer-hybris/android_external_busybox" revision="hybris-10.1"/>
-  <project path="external/protobuf" name="mer-hybris/android_external_protobuf" revision="hybris-10.1"/>
-  <project path="external/liblzf" name="mer-hybris/android_external_liblzf" revision="hybris-10.1"/>
-  <project path="frameworks/base" name="mer-hybris/android_frameworks_base" revision="hybris-10.1"/> 
-
-
+  <remote  name="github"
+           fetch="https://github.com" />
 
 <!-- Remove all aosp projects - comment out ones to keep
      This is a direct copy of all projects in AOSP with s/<project/<remove-project/
@@ -53,7 +35,7 @@
   <remove-project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
 <!--   <project path="device/common" name="device/common" /> -->
   <remove-project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
-  <remove-project path="device/generic/common" name="device/generic/common" groups="pdk" />
+<!--   <project path="device/generic/common" name="device/generic/common" groups="pdk" /> -->
   <remove-project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <remove-project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
@@ -64,8 +46,8 @@
   <remove-project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <remove-project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <remove-project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <remove-project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
-  <remove-project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+<!--   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" /> -->
+<!--   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" /> -->
   <remove-project path="device/sample" name="device/sample" groups="pdk" />
   <remove-project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <remove-project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -220,7 +202,7 @@
   <remove-project path="external/pixman" name="platform/external/pixman" />
   <remove-project path="external/ppp" name="platform/external/ppp" />
   <remove-project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
-<!--   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" /> -->
+  <remove-project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
 <!--   <project path="external/qemu" name="platform/external/qemu" /> -->
   <remove-project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <remove-project path="external/regex-re2" name="platform/external/regex-re2" />
@@ -262,14 +244,14 @@
   <remove-project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <remove-project path="external/zxing" name="platform/external/zxing" />
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-<!--   <project path="frameworks/base" name="platform/frameworks/base" /> -->
+  <remove-project path="frameworks/base" name="platform/frameworks/base" />
   <remove-project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <remove-project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <remove-project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <remove-project path="frameworks/ex" name="platform/frameworks/ex" />
   <remove-project path="frameworks/mff" name="platform/frameworks/mff" />
   <remove-project path="frameworks/ml" name="platform/frameworks/ml" />
-  <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+<!--   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" /> -->
   <remove-project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <remove-project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <remove-project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -302,7 +284,7 @@
   <remove-project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" />
   <remove-project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
-  <remove-project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
+<!--   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" /> -->
   <remove-project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <remove-project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <remove-project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
@@ -403,7 +385,7 @@
   <remove-project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
   <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm" />
   <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" />
-  <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm" />
+<!--   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm" /> -->
   <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
   <remove-project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
   <remove-project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
@@ -430,11 +412,11 @@
   <remove-project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
   <remove-project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
   <remove-project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
-  <remove-project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
-  <remove-project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
+<!--   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" /> -->
+<!--   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" /> -->
   <remove-project path="sdk" name="platform/sdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
-  <remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+<!--   <project path="system/extras" name="platform/system/extras" groups="pdk" /> -->
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
   <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
   <remove-project path="system/security" name="platform/system/security" groups="pdk" />
@@ -450,5 +432,24 @@
   <remove-project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <remove-project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <remove-project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+<!-- Hybris extras -->
+  <project path="rpm" name="lbt/droid-hal-device" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+  <project path="hybris/hybris-boot" name="lbt/hybris-boot" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+
+<!-- Hybris overrides -->
+  <project path="build" name="lbt/android_build" remote="github" revision="hybris-aosp-4.4.2_r2" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="bionic" name="lbt/android_bionic" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+  <project path="libcore" name="lbt/android_libcore" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+  <project path="system/core" name="lbt/android_system_core" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+  <project path="hardware/ril" name="lbt/android_hardware_ril" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+  <project path="external/busybox" name="lbt/android_external_busybox" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+  <project path="external/protobuf" name="lbt/android_external_protobuf" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+  <project path="external/liblzf" name="lbt/android_external_liblzf" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+  <project path="frameworks/base" name="lbt/android_frameworks_base" remote="github" revision="hybris-aosp-4.4.2_r2"/> 
+
+
 
 </manifest>

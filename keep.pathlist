@@ -1,6 +1,7 @@
 # This is a list of 'path' entries which are needed for hybris builds.
 bootable/recovery
 device/common
+device/generic/common
 external/bzip2
 external/clang
 external/compiler-rt
@@ -17,14 +18,16 @@ external/libpng
 external/libselinux
 external/llvm
 external/openssl
-external/protobuf
+#external/protobuf # hybris'ed
 external/qemu
 external/safe-iop
 external/skia
 external/stlport
 external/webp
 external/yaffs2
-frameworks/base
+external/zlib # for core/libzipfile
+#frameworks/base # hybris'ed
+frameworks/native
 frameworks/opt/emoji
 hardware/libhardware
 hardware/libhardware_legacy
@@ -39,3 +42,15 @@ prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6
 prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7
 prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7
 prebuilts/ndk
+prebuilts/sdk
+prebuilts/tools
+system/extras
+
+# Don't want but seem to be needed
+prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6
+
+
+# Add mako devices
+device/lge/mako
+device/lge/mako-kernel
+hardware/qcom/msm8960
