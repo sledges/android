@@ -12,7 +12,8 @@ if (open my $KEEP, "<", $keep) {
   while (<$KEEP>) {
     next if /^\s*#/; # skip comments
     chomp;
-    s/\s+$//;
+    s/#.*$//; # Allow comments after a keep line
+    s/\s+$//; # Remove trailing space
     $keep{$_} = 1;
   }
 } else { die; }
