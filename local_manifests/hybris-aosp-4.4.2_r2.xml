@@ -61,7 +61,7 @@
   <remove-project path="external/apache-qp" name="platform/external/apache-qp" />
   <remove-project path="external/apache-xml" name="platform/external/apache-xml" />
   <remove-project path="external/arduino" name="platform/external/arduino" />
-  <remove-project path="external/bison" name="platform/external/bison" groups="pdk" />
+<!--   <project path="external/bison" name="platform/external/bison" groups="pdk" /> -->
   <remove-project path="external/blktrace" name="platform/external/blktrace" />
   <remove-project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <remove-project path="external/bouncycastle" name="platform/external/bouncycastle" />
@@ -241,7 +241,7 @@
   <remove-project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <remove-project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
 <!--   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" /> -->
-  <remove-project path="external/zlib" name="platform/external/zlib" groups="pdk" />
+<!--   <project path="external/zlib" name="platform/external/zlib" groups="pdk" /> -->
   <remove-project path="external/zxing" name="platform/external/zxing" />
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
@@ -406,7 +406,7 @@
 <!--   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" /> -->
 <!--   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" /> -->
 <!--   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" /> -->
-  <remove-project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
+<!--   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" /> -->
 <!--   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" /> -->
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
   <remove-project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />

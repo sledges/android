@@ -2,6 +2,7 @@
 bootable/recovery
 device/common
 device/generic/common
+external/bison
 external/bzip2
 external/clang
 external/compiler-rt
@@ -41,6 +42,7 @@ prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6
 prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6
 prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7
 prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7
+prebuilts/misc
 prebuilts/ndk
 prebuilts/sdk
 prebuilts/tools
