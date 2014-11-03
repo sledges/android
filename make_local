@@ -7,7 +7,7 @@ if (! $defaultxml) {
   $defaultxml = "default.xml";
 }
 my $tmpl="local_manifest.xml.template";
-my $localxml="local_manifests/hybris-aosp-4.4.2_r2.xml";
+my $localxml="local_manifests/hybris.xml";
 my $keep="keep.pathlist";
 
 my %keep;
