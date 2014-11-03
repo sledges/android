@@ -11,6 +11,7 @@ my $localxml="local_manifests/hybris.xml";
 my $keep="keep.pathlist";
 
 my %keep;
+my %tmpl_paths;
 my @re;
 if (open my $KEEP, "<", $keep) {
   while (<$KEEP>) {
@@ -23,6 +24,16 @@ if (open my $KEEP, "<", $keep) {
     } else {
       $keep{$_} = 1;
     }
+  }
+} else { die; }
+
+if (open my $TMPL, "<", $tmpl) {
+  while (<$TMPL>) {
+    next if /^\s*#/; # skip comments
+    chomp;
+    next unless /path="([^"]+)"/;
+    $tmpl_paths{$1} = 1;
+    print "Not keeping $1 found in the template\n";
   }
 } else { die; }
 
@@ -42,17 +53,19 @@ while (<$DEFAULTXML>) {
   my $path = $1;
   my $keep=0;
 
-  if (defined $keep{$path}) {
-    s/^/<!-- /; s/$/ -->/; # show the repo to be kept
-    $keep=1;
-  } else {
-    foreach my $re (@re) {
-      print "Considering $re against $path";
-      if ($path =~ /$re/) {
-	s/^/<!-- /; s/$/ -->/; # show the repo to be kept
-	$keep=1;
-	print " : yes\n";
-      } else { print " : no\n"; }
+  if (! defined $tmpl_paths{$path}) { # don't keep paths in the template
+    if (defined $keep{$path}) {
+      s/^/<!-- /; s/$/ -->/; # show the repo to be kept
+      $keep=1;
+    } else {
+      foreach my $re (@re) {
+	print "Considering $re against $path";
+	if ($path =~ /$re/) {
+	  s/^/<!-- /; s/$/ -->/; # show the repo to be kept
+	  $keep=1;
+	  print " : yes\n";
+	} else { print " : no\n"; }
+      }
     }
   }
   if (! $keep) { # create remove-project entries for unwanted repos
