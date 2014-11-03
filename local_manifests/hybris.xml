@@ -306,7 +306,7 @@
 <!--   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" groups="qcom"/> -->
 <!--   <project path="hardware/qcom/sensors" name="platform_hardware_qcom_sensors" groups="qcom"/> -->
 <!--   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan"/> -->
-<!--   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk"/> -->
+  <remove-project path="hardware/ril" name="platform_hardware_ril" groups="pdk"/>
 <!--   <project path="hardware/samsung_slsi/exynos5" name="platform_hardware_samsung_slsi_exynos5" groups="exynos5"/> -->
 <!--   <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3"/> -->
 <!--   <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" groups="omap4"/> -->
