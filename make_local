@@ -26,9 +26,9 @@ if (open my $KEEP, "<", $keep) {
   }
 } else { die; }
 
-open my $TMPL, "<", $tmpl or die;
-open my $LOCALXML, ">", $localxml or die;
-open my $DEFAULTXML, "<", $defaultxml or die;
+open my $TMPL, "<", $tmpl or die $!;
+open my $LOCALXML, ">", $localxml or die $!;
+open my $DEFAULTXML, "<", $defaultxml or die $!;
 
 while (<$TMPL>) {
   last if /REMOVELIST/;
