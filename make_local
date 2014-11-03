@@ -2,19 +2,27 @@
 
 use strict;
 
-my $defaultxml="default.xml";
+my $defaultxml = $ARGV[0] ;
+if (! $defaultxml) {
+  $defaultxml = "default.xml";
+}
 my $tmpl="local_manifest.xml.template";
 my $localxml="local_manifests/hybris-aosp-4.4.2_r2.xml";
 my $keep="keep.pathlist";
 
 my %keep;
+my @re;
 if (open my $KEEP, "<", $keep) {
   while (<$KEEP>) {
     next if /^\s*#/; # skip comments
     chomp;
     s/#.*$//; # Allow comments after a keep line
     s/\s+$//; # Remove trailing space
-    $keep{$_} = 1;
+    if (s/^re: //) {
+      push @re, $_;  # it's a regexp match
+    } else {
+      $keep{$_} = 1;
+    }
   }
 } else { die; }
 
@@ -32,11 +40,22 @@ while (<$DEFAULTXML>) {
 
   next unless /path="([^"]+)"/;
   my $path = $1;
+  my $keep=0;
 
   if (defined $keep{$path}) {
-    s/^/<!-- /;
-    s/$/ -->/;
+    s/^/<!-- /; s/$/ -->/; # show the repo to be kept
+    $keep=1;
   } else {
+    foreach my $re (@re) {
+      print "Considering $re against $path";
+      if ($path =~ /$re/) {
+	s/^/<!-- /; s/$/ -->/; # show the repo to be kept
+	$keep=1;
+	print " : yes\n";
+      } else { print " : no\n"; }
+    }
+  }
+  if (! $keep) { # create remove-project entries for unwanted repos
     if (! /\/>$/ ) {
       s(>$)(/>);
     }
