@@ -52,7 +52,7 @@ system/extras
 prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6
 
 
-# Add mako devices
-device/lge/mako
-device/lge/mako-kernel
-hardware/qcom/msm8960
+# Each manifest *should* have dedicated device repos
+re: ^device/.*
+re: ^hardware/.*
+re: ^vendor/.*
