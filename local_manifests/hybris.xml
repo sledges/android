@@ -19,7 +19,7 @@
   <remove-project path="bionic" name="platform_bionic" groups="pdk"/><!-- redefined later in this file -->
   <remove-project path="bootable/bootloader/legacy" name="platform_bootable_bootloader_legacy"/>
   <remove-project path="bootable/diskinstaller" name="platform_bootable_diskinstaller"/>
-  <remove-project path="bootable/iago" name="platform_bootable_iago"/>
+<!--   <project path="bootable/iago" name="platform_bootable_iago"/> --> <!-- in keep.pathlist -->
 <!--   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk"/> --> <!-- in keep.pathlist -->
   <remove-project path="bootable/userfastboot" name="platform_bootable_userfastboot"/>
   <remove-project path="build" name="platform_build" groups="pdk"/><!-- redefined later in this file -->

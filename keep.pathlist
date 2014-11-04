@@ -56,3 +56,5 @@ prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6
 re: ^device/.*
 re: ^hardware/.*
 re: ^vendor/.*
+
+bootable/iago # for android_ia
