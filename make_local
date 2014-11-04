@@ -55,16 +55,14 @@ while (<$DEFAULTXML>) {
 
   if (! defined $tmpl_paths{$path}) { # don't keep paths in the template
     if (defined $keep{$path}) {
-      s/^/<!-- /; s/$/ -->/; # show the repo to be kept
+      s/^/<!-- /; s/$/ --> <!-- in keep.pathlist -->/; # show the repo to be kept
       $keep=1;
     } else {
       foreach my $re (@re) {
-	print "Considering $re against $path";
 	if ($path =~ /$re/) {
-	  s/^/<!-- /; s/$/ -->/; # show the repo to be kept
+	  s/^/<!-- /; s/$/ --> <!-- matches re: $re -->/; # show the repo to be kept
 	  $keep=1;
-	  print " : yes\n";
-	} else { print " : no\n"; }
+	}
       }
     }
   }
@@ -73,6 +71,9 @@ while (<$DEFAULTXML>) {
       s(>$)(/>);
     }
     s/<project/<remove-project/;
+    if (defined $tmpl_paths{$path}) {
+      s/$/<!-- redefined later in this file -->/;
+    }
   }
   print $LOCALXML $_;
 }
