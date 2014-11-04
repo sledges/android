@@ -6,7 +6,7 @@
            review="android-review.googlesource.com" />
 -->
 
-  <remote  name="github"
+  <remote  name="hybris"
            fetch="https://github.com" />
 
 <!-- Remove all aosp projects - comment out ones to keep
@@ -17,21 +17,21 @@
 <!-- REMOVELIST -->
 
 <!-- Hybris extras -->
-  <project path="rpm" name="lbt/droid-hal-device" remote="github" revision="hybris-aosp-4.4.2_r2"/>
-  <project path="hybris/hybris-boot" name="lbt/hybris-boot" remote="github" revision="hybris-aosp-4.4.2_r2"/>
+  <project path="rpm" name="lbt/droid-hal-device" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
+  <project path="hybris/hybris-boot" name="lbt/hybris-boot" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
 
 <!-- Hybris overrides -->
-  <project path="build" name="lbt/android_build" remote="github" revision="hybris-aosp-4.4.2_r2" >
+  <project path="build" name="lbt/android_build" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="lbt/android_bionic" remote="github" revision="hybris-aosp-4.4.2_r2"/>
-  <project path="libcore" name="lbt/android_libcore" remote="github" revision="hybris-aosp-4.4.2_r2"/>
-  <project path="system/core" name="lbt/android_system_core" remote="github" revision="hybris-aosp-4.4.2_r2"/>
-  <project path="hardware/ril" name="lbt/android_hardware_ril" remote="github" revision="hybris-aosp-4.4.2_r2"/>
-  <project path="external/busybox" name="lbt/android_external_busybox" remote="github" revision="hybris-aosp-4.4.2_r2"/>
-  <project path="external/protobuf" name="lbt/android_external_protobuf" remote="github" revision="hybris-aosp-4.4.2_r2"/>
-  <project path="external/liblzf" name="lbt/android_external_liblzf" remote="github" revision="hybris-aosp-4.4.2_r2"/>
-  <project path="frameworks/base" name="lbt/android_frameworks_base" remote="github" revision="hybris-aosp-4.4.2_r2"/> 
+  <project path="bionic" name="lbt/android_bionic" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
+  <project path="libcore" name="lbt/android_libcore" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
+  <project path="system/core" name="lbt/android_system_core" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
+  <project path="hardware/ril" name="lbt/android_hardware_ril" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
+  <project path="external/busybox" name="lbt/android_external_busybox" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
+  <project path="external/protobuf" name="lbt/android_external_protobuf" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
+  <project path="external/liblzf" name="lbt/android_external_liblzf" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
+  <project path="frameworks/base" name="lbt/android_frameworks_base" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/> 
 
 
 
