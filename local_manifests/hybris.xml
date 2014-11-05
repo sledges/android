@@ -314,7 +314,7 @@
 <!--   <project path="hardware/ti/wpan" name="platform_hardware_ti_wpan"/> --> <!-- matches re: ^hardware/.* -->
   <remove-project path="libcore" name="platform_libcore"/><!-- redefined later in this file -->
   <remove-project path="libnativehelper" name="platform_libnativehelper" groups="pdk-java"/>
-  <remove-project path="linux/kernel-uefi" name="kernel_intel-uefi"/>
+<!--   <project path="linux/kernel-uefi" name="kernel_intel-uefi"/> --> <!-- in keep.pathlist -->
   <remove-project path="linux/modules/debug_tools" name="device_intel_debug_tools"/>
   <remove-project path="ndk" name="platform_ndk"/>
   <remove-project path="packages/apps/AndroidTerm" name="platform_packages_apps_AndroidTerm"/>
