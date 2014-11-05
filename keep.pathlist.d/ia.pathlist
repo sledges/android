@@ -1,4 +1,6 @@
 # This is a list of 'path' entries which are needed for ia builds.
 
 bootable/iago
+bootable/userfastboot
 linux/kernel-uefi
+

@@ -21,7 +21,7 @@
   <remove-project path="bootable/diskinstaller" name="platform_bootable_diskinstaller"/>
 <!--   <project path="bootable/iago" name="platform_bootable_iago"/> --> <!-- in keep.pathlist -->
 <!--   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk"/> --> <!-- in keep.pathlist -->
-  <remove-project path="bootable/userfastboot" name="platform_bootable_userfastboot"/>
+<!--   <project path="bootable/userfastboot" name="platform_bootable_userfastboot"/> --> <!-- in keep.pathlist -->
   <remove-project path="build" name="platform_build" groups="pdk"/><!-- redefined later in this file -->
   <remove-project path="cts" name="platform_cts" groups="cts"/>
   <remove-project path="dalvik" name="platform_dalvik"/>
