@@ -8,24 +8,27 @@ if (! $defaultxml) {
 }
 my $tmpl="local_manifest.xml.template";
 my $localxml="local_manifests/hybris.xml";
-my $keep="keep.pathlist";
+my $keep="keep.pathlist.d";
 
 my %keep;
 my %tmpl_paths;
 my @re;
-if (open my $KEEP, "<", $keep) {
-  while (<$KEEP>) {
-    next if /^\s*#/; # skip comments
-    chomp;
-    s/#.*$//; # Allow comments after a keep line
-    s/\s+$//; # Remove trailing space
-    if (s/^re: //) {
-      push @re, $_;  # it's a regexp match
-    } else {
-      $keep{$_} = 1;
+opendir(my $KEEPDIR, $keep) or die "No $keep dir";
+foreach (grep /.pathlist$/,readdir($KEEPDIR)) {
+  if (open my $KEEP, "<", "$keep/$_") {
+    while (<$KEEP>) {
+      next if /^\s*#/; # skip comments
+      chomp;
+      s/#.*$//; # Allow comments after a keep line
+      s/\s+$//; # Remove trailing space
+      if (s/^re: //) {
+	push @re, $_;  # it's a regexp match
+      } else {
+	$keep{$_} = 1;
+      }
     }
-  }
-} else { die; }
+  } else { die; }
+}
 
 if (open my $TMPL, "<", $tmpl) {
   while (<$TMPL>) {
