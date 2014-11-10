@@ -48,9 +48,6 @@ prebuilts/sdk
 prebuilts/tools
 system/extras
 
-# Don't want but seem to be needed
-prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6
-
 # Each manifest *should* have dedicated device repos
 re: ^device/.*
 re: ^hardware/.*
