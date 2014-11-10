@@ -405,7 +405,7 @@
   <remove-project path="prebuilts/devtools" name="platform_prebuilts_devtools"/>
   <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" groups="pdk,darwin,arm"/>
   <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.7" groups="pdk,darwin,arm"/>
-<!--   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.6" groups="pdk,darwin,arm"/> --> <!-- in keep.pathlist -->
+  <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.6" groups="pdk,darwin,arm"/>
   <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.7" groups="pdk,darwin,arm"/>
   <remove-project path="prebuilts/gcc/darwin-x86/host/headers" name="platform_prebuilts_gcc_darwin-x86_host_headers" groups="pdk,darwin"/>
   <remove-project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform_prebuilts_gcc_darwin-x86_host_i686-apple-darwin-4.2.1" groups="pdk,darwin"/>
