@@ -33,7 +33,5 @@
   <project path="external/protobuf" name="lbt/android_external_protobuf" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
   <project path="external/liblzf" name="lbt/android_external_liblzf" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
   <project path="frameworks/base" name="lbt/android_frameworks_base" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/> 
-
-
-
+  <project path="linux/kernel-uefi" name="lbt/kernel_intel-uefi" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/> 
 </manifest>
