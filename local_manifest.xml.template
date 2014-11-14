@@ -19,7 +19,8 @@
 <!-- Hybris extras -->
   <project path="rpm" name="lbt/droid-hal-device" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
   <project path="hybris/hybris-boot" name="lbt/hybris-boot" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" remote="hybris" revision="master"/>
+  <project path="hybris/mer-kernel-check" name="lbt/mer-kernel-check" remote="hybris" revision="master"/>
+  <project path="hybris/overrides/kernel" name="lbt/nuc-kernel-overrides" remote="hybris" revision="master"/>
 
 <!-- Hybris overrides -->
   <project path="build" name="lbt/android_build" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2" >
