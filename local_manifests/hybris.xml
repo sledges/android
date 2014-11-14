@@ -314,7 +314,7 @@
 <!--   <project path="hardware/ti/wpan" name="platform_hardware_ti_wpan"/> --> <!-- matches re: ^hardware/.* -->
   <remove-project path="libcore" name="platform_libcore"/><!-- redefined later in this file -->
   <remove-project path="libnativehelper" name="platform_libnativehelper" groups="pdk-java"/>
-  <remove-project path="linux/kernel-uefi" name="kernel_intel-uefi"/><!-- redefined later in this file -->
+<!--   <project path="linux/kernel-uefi" name="kernel_intel-uefi"/> --> <!-- in keep.pathlist -->
   <remove-project path="linux/modules/debug_tools" name="device_intel_debug_tools"/>
   <remove-project path="ndk" name="platform_ndk"/>
   <remove-project path="packages/apps/AndroidTerm" name="platform_packages_apps_AndroidTerm"/>
@@ -485,5 +485,4 @@
   <project path="external/protobuf" name="lbt/android_external_protobuf" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
   <project path="external/liblzf" name="lbt/android_external_liblzf" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
   <project path="frameworks/base" name="lbt/android_frameworks_base" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/> 
-  <project path="linux/kernel-uefi" name="lbt/kernel_intel-uefi" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/> 
 </manifest>
