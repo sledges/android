@@ -21,6 +21,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path=".repo/local_manifests" name="mer-hybris/local_manifests" revision="hybris2-11.0"/>
+
   <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="hybris-10.1"/>
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="refs/tags/0.0.3" />
   <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
