@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!--  <remove-remote  name="aosp" />
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
--->
 
-  <remote  name="hybris"
+  <remote  name="github"
            fetch="https://github.com" />
+
+  <default revision="refs/tags/android-5.1.0_r5"
+           remote="aosp"
+           sync-j="4" />
 
 <!-- Remove all aosp projects - comment out ones to keep
      This is a direct copy of all projects in AOSP with s/<project/<remove-project/
@@ -17,21 +16,12 @@
 <!-- REMOVELIST -->
 
 <!-- Hybris extras -->
-  <project path="rpm" name="lbt/droid-hal-device" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="hybris/hybris-boot" name="lbt/hybris-boot" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="hybris/mer-kernel-check" name="lbt/mer-kernel-check" remote="hybris" revision="master"/>
-  <project path="hybris/overrides/kernel" name="lbt/nuc-kernel-overrides" remote="hybris" revision="master"/>
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" remote="github" revision="hybris-10.1" />
+  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" remote="github" revision="master" />
 
 <!-- Hybris overrides -->
-  <project path="build" name="lbt/android_build" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="bionic" name="lbt/android_bionic" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="libcore" name="lbt/android_libcore" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="system/core" name="lbt/android_system_core" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="hardware/ril" name="lbt/android_hardware_ril" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="external/busybox" name="lbt/android_external_busybox" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="external/protobuf" name="lbt/android_external_protobuf" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="external/liblzf" name="lbt/android_external_liblzf" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/>
-  <project path="frameworks/base" name="lbt/android_frameworks_base" remote="hybris" revision="hybris-ia-4.4.2_r1-ia2"/> 
+  <project path="external/busybox" name="mer-hybris/android_external_busybox" remote="github" revision="hybris-aosp-5.1.0_r5" />
+  <project path="bionic" name="mer-hybris/android_bionic" groups="pdk" remote="github" revision="hybris-aosp-5.1.0_r5" />
+  <project path="frameworks/native" name="mer-hybris/android_frameworks_native" groups="pdk" remote="github" revision="hybris-aosp-5.1.0_r5" />
+  <project path="system/core" name="mer-hybris/android_system_core" groups="pdk" remote="github" revision="hybris-aosp-5.1.0_r5" />
 </manifest>
