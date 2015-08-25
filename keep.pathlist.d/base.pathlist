@@ -59,8 +59,11 @@ prebuilts/sdk
 prebuilts/tools
 system/extras
 
-# Each manifest *should* have dedicated device repos
-re: ^device/.* - device specific ones go to local_manifest on modular
+# Each manifest *should* have dedicated device repos.
+# Device specific ones go to local_manifest on modular, so we're not keeping this:
+#re: ^device/.*
+# The next two lines will pull in what will accommodate most devices, so we'll take all
+# (even if each device won't benefit from all those repos being pulled in)
 re: ^hardware/.*
 re: ^vendor/.*
 
@@ -81,4 +84,19 @@ frameworks/av
 libcore
 libnativehelper
 prebuilts/clang/linux-x86/host/3.5
+external/bouncycastle
+
+#droidmedia:
+external/flac
+external/icu
+external/jemalloc
+external/libogg
+external/libopus
+external/libunwind
+external/libvpx
+external/sonivox
+external/speex
+external/tremolo
+system/media
+system/netd
 
