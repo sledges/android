@@ -16,7 +16,7 @@
 <!-- REMOVELIST -->
 
 <!-- Hybris extras -->
-  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" remote="github" revision="hybris-10.1" />
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" remote="github" revision="master" />
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" remote="github" revision="master" />
 
 <!-- Hybris overrides -->
