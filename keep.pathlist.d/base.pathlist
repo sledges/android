@@ -98,6 +98,9 @@ external/speex
 external/tremolo
 system/media
 system/netd
+#cm12.1 asked for these:
+external/ffmpeg
+external/stagefright-plugins
 
 # repos containing mer-hybris patches:
 bionic
