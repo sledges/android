@@ -28,10 +28,7 @@ external/stlport
 external/webp
 external/yaffs2
 external/zlib # for core/libzipfile
-frameworks/base # hybris'ed only on 10.1
-#frameworks/native #hybris'ed on >=11.0
 frameworks/opt/emoji
-hardware/libhardware
 hardware/libhardware_legacy
 
 #prebuilts:
@@ -102,3 +99,12 @@ external/tremolo
 system/media
 system/netd
 
+# repos containing mer-hybris patches:
+bionic
+external/busybox
+system/core
+# hybris'ed only on 10.1
+frameworks/base
+#hybris'ed on >=11.0
+frameworks/native
+hardware/libhardware
