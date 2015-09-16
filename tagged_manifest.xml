@@ -7,7 +7,7 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
-  <default revision="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"
+  <default
            remote="github"
            sync-c="true"
            sync-j="4" />
