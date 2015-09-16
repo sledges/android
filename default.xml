@@ -7,116 +7,117 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
-  <default revision="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"
+  <default
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project name="CyanogenMod/android_abi_cpp" path="abi/cpp"/>
-  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery"/>
-  <project name="CyanogenMod/android_bootable_recovery-cm" path="bootable/recovery-cm"/>
-  <project name="CyanogenMod/android_device_common" path="device/common"/>
-  <project name="CyanogenMod/android_device_generic_common" path="device/generic/common"/>
-  <project name="CyanogenMod/android_external_bison" path="external/bison"/>
-  <project name="CyanogenMod/android_external_bouncycastle" path="external/bouncycastle"/>
-  <project name="CyanogenMod/android_external_bzip2" path="external/bzip2"/>
-  <project name="CyanogenMod/android_external_clang" path="external/clang"/>
-  <project name="CyanogenMod/android_external_compiler-rt" path="external/compiler-rt"/>
-  <project name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs"/>
-  <project name="CyanogenMod/android_external_expat" path="external/expat"/>
-  <project name="CyanogenMod/android_external_flac" path="external/flac"/>
-  <project name="CyanogenMod/android_external_freetype" path="external/freetype"/>
-  <project name="CyanogenMod/android_external_gcc-demangle" path="external/gcc-demangle"/>
-  <project name="CyanogenMod/android_external_genext2fs" path="external/genext2fs"/>
-  <project name="CyanogenMod/android_external_giflib" path="external/giflib"/>
-  <project name="CyanogenMod/android_external_harfbuzz" path="external/harfbuzz"/>
-  <project name="CyanogenMod/android_external_jpeg" path="external/jpeg"/>
-  <project name="CyanogenMod/android_external_junit" path="external/junit"/>
-  <project name="CyanogenMod/android_external_kernel-headers" path="external/kernel-headers"/>
-  <project name="CyanogenMod/android_external_liblzf" path="external/liblzf"/>
-  <project name="CyanogenMod/android_external_libnfc-nxp" path="external/libnfc-nxp"/>
-  <project name="CyanogenMod/android_external_libogg" path="external/libogg"/>
-  <project name="CyanogenMod/android_external_libphonenumber" path="external/libphonenumber"/>
-  <project name="CyanogenMod/android_external_libpng" path="external/libpng"/>
-  <project name="CyanogenMod/android_external_libselinux" path="external/libselinux"/>
-  <project name="CyanogenMod/android_external_libsepol" path="external/libsepol"/>
-  <project name="CyanogenMod/android_external_libvpx" path="external/libvpx"/>
-  <project name="CyanogenMod/android_external_llvm" path="external/llvm"/>
-  <project name="CyanogenMod/android_external_openssl" path="external/openssl"/>
-  <project name="CyanogenMod/android_external_protobuf" path="external/protobuf"/>
-  <project name="CyanogenMod/android_external_qemu" path="external/qemu"/>
-  <project name="CyanogenMod/android_external_safe-iop" path="external/safe-iop"/>
-  <project name="CyanogenMod/android_external_skia" path="external/skia"/>
-  <project name="CyanogenMod/android_external_sonivox" path="external/sonivox"/>
-  <project name="CyanogenMod/android_external_speex" path="external/speex"/>
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport"/>
-  <project name="CyanogenMod/android_external_tremolo" path="external/tremolo"/>
-  <project name="CyanogenMod/android_external_webp" path="external/webp"/>
-  <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8"/>
-  <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2"/>
-  <project name="CyanogenMod/android_external_zlib" path="external/zlib"/>
-  <project name="CyanogenMod/android_frameworks_av" path="frameworks/av"/>
-  <project name="CyanogenMod/android_frameworks_base" path="frameworks/base"/>
-  <project name="CyanogenMod/android_frameworks_opt_emoji" path="frameworks/opt/emoji"/>
-  <project name="CyanogenMod/android_hardware_akm" path="hardware/akm"/>
-  <project name="CyanogenMod/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt"/>
-  <project name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan"/>
-  <project name="CyanogenMod/android_hardware_cm" path="hardware/cm"/>
-  <project name="CyanogenMod/android_hardware_invensense" path="hardware/invensense"/>
-  <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio"/>
-  <project name="CyanogenMod/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf"/>
-  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt"/>
-  <project name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera"/>
-  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display"/>
-  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps"/>
-  <project name="CyanogenMod/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster"/>
-  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media"/>
-  <project name="CyanogenMod/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf"/>
-  <project name="CyanogenMod/android_hardware_qcom_msm8960" path="hardware/qcom/msm8960"/>
-  <project name="CyanogenMod/android_hardware_qcom_msm8x74" path="hardware/qcom/msm8x74"/>
-  <project name="CyanogenMod/android_hardware_qcom_power" path="hardware/qcom/power"/>
-  <project name="CyanogenMod/android_hardware_qcom_sensors" path="hardware/qcom/sensors"/>
-  <project name="CyanogenMod/android_hardware_qcom_wlan" path="hardware/qcom/wlan"/>
-  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril"/>
-  <project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5"/>
-  <project name="CyanogenMod/android_hardware_ti_omap3" path="hardware/ti/omap3"/>
-  <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx"/>
-  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan"/>
-  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan"/>
-  <project name="CyanogenMod/android_libcore" path="libcore"/>
-  <project name="CyanogenMod/android_libnativehelper" path="libnativehelper"/>
-  <project name="CyanogenMod/android_prebuilts_misc" path="prebuilts/misc"/>
-  <project name="CyanogenMod/android_system_extras" path="system/extras"/>
-  <project name="CyanogenMod/android_system_media" path="system/media"/>
-  <project name="CyanogenMod/android_system_netd" path="system/netd"/>
-  <project name="CyanogenMod/android_vendor_cm" path="vendor/cm"/>
-  <project name="cyngn/android_vendor_cyngn" path="vendor/cyngn"/>
-  <project name="mer-hybris/android_bionic" path="bionic" revision="hybris-11.0-44S"/>
-  <project name="mer-hybris/android_build" path="build" revision="hybris-11.0-44S">
+  <project name="CyanogenMod/android_abi_cpp" path="abi/cpp" revision="920825e414b1ff3031f42c745b405fec49e0e20c" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" revision="3f28d95ce11305cfa43ae2c85d402f776fbdbd1e" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_bootable_recovery-cm" path="bootable/recovery-cm" revision="671157c57fc60a570fca109196d30ef43cc2862d" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_device_common" path="device/common" revision="ca7e3194b8d3da282321683e87981753b0afdc5a" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_device_generic_common" path="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_device_lge_hammerhead" path="device/lge/hammerhead" revision="fa8ec86cb420e74829a867000b16ab62884b810f" upstream="stable/cm-11.0"/>
+  <project name="CyanogenMod/android_external_bison" path="external/bison" revision="5b2d5218833436ffa78abe84b5404344678bbf7e" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_bouncycastle" path="external/bouncycastle" revision="8ca757547fa2d71874267446da178c85f8625b6a" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_bzip2" path="external/bzip2" revision="33358c7abd1448a27690a2137bbbfdc32421bd45" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_clang" path="external/clang" revision="0deacf4fa6f266f6a66193ba6613eb979abe5f4a" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_compiler-rt" path="external/compiler-rt" revision="e088ec625bf789088a7d61c73ee9175df74cc260" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs" revision="650530dbed28fe4c2f8f499177a6b27170acfd51" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_expat" path="external/expat" revision="c967986dc20b62c470c6ba9bb9dc53fcf9811308" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_flac" path="external/flac" revision="a05c01b7806ce0ff2b110ad36dbfe5727cb8cd4f" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_freetype" path="external/freetype" revision="5b18c5874f85aa819ddef822b95a66ca070421dc" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_gcc-demangle" path="external/gcc-demangle" revision="58d84850772c393e1496375672c2a35cc127f0ef" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_genext2fs" path="external/genext2fs" revision="448e78c0025c1d378f968785b3b8231a0ce935cc" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_giflib" path="external/giflib" revision="00ca3fbf9ed67494a6e37ed05349e0308caf7154" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_harfbuzz" path="external/harfbuzz" revision="e3dd0ba16ea0902c2b1bac26eb4bf857b3b04838" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_jpeg" path="external/jpeg" revision="1820c902b27d82ea09aa8b348ab1b7e96a107dd4" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_junit" path="external/junit" revision="28cfa39634fd6d04f4870b5c63aaf105bb762561" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_kernel-headers" path="external/kernel-headers" revision="c2db436a699956a097c7fccaf9e2a813f31105cd" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_libnfc-nxp" path="external/libnfc-nxp" revision="4b9dbbb9a8aa869cca086e2d5d726318bb2b8c27" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_libogg" path="external/libogg" revision="ec0b24fb1468abe37be4164a6feb16568e036bde" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_libphonenumber" path="external/libphonenumber" revision="a89d41d8e584358ec7119489a89fcb7050416042" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_libpng" path="external/libpng" revision="f8479818f50f2c386b054a0cea00ccd19788cf98" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_libselinux" path="external/libselinux" revision="ae0070fc7efdf52567eab1b13ab3249dfe4ac59a" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_libsepol" path="external/libsepol" revision="31329f9e50e441ac31b9c193308d41b19fbdea47" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_libvpx" path="external/libvpx" revision="a8b9c84c39a0e18d4728ff61fabaed39d774860f" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_llvm" path="external/llvm" revision="75aa7c887f0c29143e6cbff605684f878a3176f2" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_openssl" path="external/openssl" revision="e9921c2aa495cc2e24be0cf4739098708cf67830" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_protobuf" path="external/protobuf" revision="ba09e03b8714734de1a1f0d7f43435a1e7b62e8f" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_qemu" path="external/qemu" revision="7f3b4ec767f6f58f84a5b91ecb1ef2ccf7dc08d7" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_skia" path="external/skia" revision="20a1f3fa6bb32fad3ba0edf231218ee00a60fd50" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_sonivox" path="external/sonivox" revision="ee2f2d2b265e9db9da24cd97be0864989f96f3f2" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" revision="745eb024d324bb8df199303024f161d4683dad85" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_tremolo" path="external/tremolo" revision="a75ec831568789596701c4e0f2982b43bbf004f8" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_webp" path="external/webp" revision="4dd3467bc3afac8152b2045c70d7ce9f8bd2e65d" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="be1ca8086b752565d0c0de6a6ead9ec454974fe9" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" revision="03a490214dc2ac29104ed10b29659d9585a6a5f2" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_external_zlib" path="external/zlib" revision="976269481dd7f8652248774052221709e873b910" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_frameworks_av" path="frameworks/av" revision="589374daee222ed3f71e3b00b2aded8618c7faa7" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_frameworks_base" path="frameworks/base" revision="e8cf23a570bded8675d00ea6598bfdd06fe55cdc" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_frameworks_opt_emoji" path="frameworks/opt/emoji" revision="322e6214549f9f9fcd9507b700a4ac4244d1283f" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_akm" path="hardware/akm" revision="6f701daf0b67ef38f1ba1700984ec78134669cd0" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="bbb55397b562c915464282224743ba4d92bf50f3" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="ee84fcd6d596bde08c11ace985f2d0f90a35f91c" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_cm" path="hardware/cm" revision="ac4af6eddec1a51c046df5a7d4770e4018e6fcd4" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_invensense" path="hardware/invensense" revision="b46e2e69caf662df99f7ca349f119e7676dacbbb" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="88243399e659bceb7a10b311a2e393451ccd33a0" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio" revision="2d3c6a7df255acf1c645784b5f517dfd1f177e55" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" revision="28222d40ca9bed9202bfa9fda4332d244814630d" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt" revision="c176fd8555a65567420e86dbb3d6d3d558e35c21" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" revision="da4b0771a5419dd46d6482f1776dd4852e124101" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" revision="0f03232defdc8a90fc75e8a719bcabd9d737e4c0" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="fcd92b08e10c427e4230547341ed3e1291ddfb8a" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" revision="d29c6e86bd57e6df35a2146d6998a886e0890cd3" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" revision="c6daad9ac61fd1aa7b28210fd49689f5abd24802" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf" revision="f1ab34a813e9742e3bf1b293e1380502e0b32200" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_msm8960" path="hardware/qcom/msm8960" revision="2181c0b4ebf6ab26d025dffe77b1af78940db3ba" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_msm8x74" path="hardware/qcom/msm8x74" revision="7d318cea9f475a6316789ba33566aa421434be40" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_power" path="hardware/qcom/power" revision="a813a810fd1e5323317015905fd67e0b4574319d" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_sensors" path="hardware/qcom/sensors" revision="07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_qcom_wlan" path="hardware/qcom/wlan" revision="cb1885689e82f5ada9e58c7a5495ac803d7103e2" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" revision="c832b022eea69c219aa9f2d5fc8cbffd73f12c6f" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" revision="4ed597a68386b3902f6460a0c18e2a892b92b740" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_ti_omap3" path="hardware/ti/omap3" revision="d609a9c7e46d107775df448ce5ab7efde66d51cf" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" revision="e88b5cdb2f27c59c39f62b33de478314d8d395a5" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" revision="b6fbbfe3dcaa8e9c9f7934402fdc17db35cf6946" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" revision="94bc4607b5c094ef0d9c0f6b2b6633bf384b038a" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="b6825347ba518d99588ca342164b71a391cc858a" upstream="stable/cm-11.0"/>
+  <project name="CyanogenMod/android_libcore" path="libcore" revision="54339e5b33e1ed54362a6cd891039271316b7350" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_libnativehelper" path="libnativehelper" revision="c501f5edc6d79bdc3cb7697398c59440958711d0" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_prebuilts_misc" path="prebuilts/misc" revision="490e397ee8b37485ac19967974758dee1db28673" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_system_extras" path="system/extras" revision="ce52b565b92240bfdd24f27f5e914586eca0fe0c" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_system_media" path="system/media" revision="17911fb7c17f8c54b9de90fb60bc9b4e07b86e46" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_system_netd" path="system/netd" revision="78defa77e6bceb7e5a1ee207612d78b10c25d4a5" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="CyanogenMod/android_vendor_cm" path="vendor/cm" revision="337d42022037d6007a81eb87658d6a3d00cdfc66" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="cyngn/android_vendor_cyngn" path="vendor/cyngn" revision="c532906ede1fd93e0a538dcd99a45b59e7d5e3a5" upstream="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"/>
+  <project name="mer-hybris/android_bionic" path="bionic" revision="f1ecd558f563740a820fcefaedf220c183093819" upstream="hybris-11.0-44S"/>
+  <project name="mer-hybris/android_build" path="build" revision="857af1288337a89ce05529bcfe171cadd65f6545" upstream="hybris-11.0-44S">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="mer-hybris/android_external_busybox" path="external/busybox" revision="hybris-11.0"/>
-  <project name="mer-hybris/android_frameworks_native" path="frameworks/native" revision="hybris-11.0-44S"/>
-  <project name="mer-hybris/android_hardware_libhardware" path="hardware/libhardware" revision="hybris-11.0-44S"/>
-  <project name="mer-hybris/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" revision="hybris-11.0-44S"/>
-  <project name="mer-hybris/android_system_core" path="system/core" revision="hybris-11.0-44S"/>
-  <project name="mer-hybris/hybris-boot" path="hybris/hybris-boot" revision="master"/>
-  <project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" revision="master"/>
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
-  <project name="sailfishos/droidmedia" path="external/droidmedia" revision="master"/>
+  <project name="mer-hybris/android_external_busybox" path="external/busybox" revision="39f240703290cacb917e23f0eb88a07c4ccd6941" upstream="hybris-11.0"/>
+  <project name="mer-hybris/android_frameworks_native" path="frameworks/native" revision="f08b4ff8080be7c83e303a8d7cd6e904addb75b5" upstream="hybris-11.0-44S"/>
+  <project name="mer-hybris/android_hardware_libhardware" path="hardware/libhardware" revision="2307aa2abd462fcaa1f611bd39f7e4d6aac7850c" upstream="hybris-11.0-44S"/>
+  <project name="mer-hybris/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" revision="e020f44401795f75c3662f162fea86804575ae5d" upstream="hybris-11.0-44S"/>
+  <project name="mer-hybris/android_system_core" path="system/core" revision="3d8012ef751a1a8d915ff8e33feef63e1be544d1" upstream="hybris-11.0-44S"/>
+  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="0f74cbc89b93c4db7fbf737f561cd69221f779a7" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" revision="8b880805d454664b3eed11d0f053cdeafa1ff06e" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="71c99ec3db1503a2124d5e287097d58b964deef7" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" revision="a1e239a0bb5cd1d69680bf1075883aa9a7bf2429" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="10191e2f442c5409cb70783508658d474612a97e" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="95bb5b66b3ec5769c3de8d3f25d681787418e7d2" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="ebdad82e61c16772f6cd47e9f11936bf6ebe9aa0" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="b9ebba077c2f62e930b16240d7f3ad61f1ad1dfc" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" remote="aosp" revision="c7931763d41be602407ed9d71e2c0292c6597e00" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" remote="aosp" revision="bbe08f8958377ba3a06f4081ed13b2399db448fb" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" revision="c792f0bd9fff7aea2887c60bbb3a9bbdb534ffa3" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="cfcef469537869947abb9aa1d656774cc2678d4c" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="5a48c04c4bb5f079bc757e29864a42427378e051" upstream="refs/tags/android-4.4.2_r2"/>
+  <project name="sailfishos/droidmedia" path="external/droidmedia" revision="70073fd881a2f01690bbfc47e94015e747973705" upstream="master"/>
+
   <project path="rpm" name="sledges/droid-bin-hammerhead" revision="master" />
 </manifest>
