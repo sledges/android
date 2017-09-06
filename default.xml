@@ -11,7 +11,7 @@
   <default remote="aosp" revision="refs/tags/android-6.0.1_r80" sync-j="4"/>
 
   <project path="hybris/hybris-boot" name="hybris-boot" remote="hybris"/>
-  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" remote="hybris"/>
+  <project path="hybris/mer-kernel-check" name="mer-kernel-check" remote="hybris"/>
   <project path="rpm" name="droid-hal-f5121" remote="hybris"/>
 
   <project path="bionic" name="android_bionic" remote="hybris-patches"/>
