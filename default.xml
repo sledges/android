@@ -2,6 +2,7 @@
 <manifest>
   <!-- Build instructions: https://sailfishos.org/wiki/Sailfish_X_HADK -->
   <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
+  <remote fetch="https://github.com/sledges/" name="shybris" revision="master"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <remote fetch="https://github.com/mer-hybris/" name="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
@@ -12,7 +13,7 @@
 
   <project path="hybris/hybris-boot" name="hybris-boot" remote="hybris"/>
   <project path="hybris/mer-kernel-check" name="mer-kernel-check" remote="hybris"/>
-  <project path="rpm" name="droid-hal-f5121" remote="hybris"/>
+  <project path="rpm" name="droid-hal-f5121" remote="shybris"/>
 
   <project path="bionic" name="android_bionic" remote="hybris-patches"/>
   <project path="build" name="android_build" remote="hybris-patches">
