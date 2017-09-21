@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
-  <remote fetch="https://github.com/mer-hybris/" name="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <remote fetch="https://github.com/mer-hybris/" name="hybris"/>
+  <remote fetch="https://github.com/mer-hybris/" name="sony-patches"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
   <remote fetch="https://github.com/NXPNFCProject/" name="NXP"/>
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
 
   <default remote="aosp" revision="refs/tags/android-6.0.1_r80" sync-j="4"/>
 
-  <project path="rpm" name="droid-src-syspart-f5121" remote="hybris"/>
+  <project path="rpm" name="droid-src-syspart-f5121" remote="hybris" revision="master"/>
 
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="sony-patches"/>
-  <project path="external/toybox" name="android_external_toybox" remote="sony-patches"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="sony-patches"/>
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sony-patches"/>
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="sony-patches"/>
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="sony-patches"/>
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sony-patches"/>
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="sony-patches"/>
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="sony-patches"/>
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sony-patches"/>
-  <project path="hardware/ril" name="android_hardware_ril" remote="sony-patches"/>
-  <project path="system/core" name="android_system_core" remote="sony-patches"/>
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="external/toybox" name="android_external_toybox" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="hardware/ril" name="android_hardware_ril" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <project path="system/core" name="android_system_core" remote="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
 
   <project path="device/sony/common" name="device-sony-common" remote="sony" revision="m-mr1"/>
   <project path="device/sony/common-headers" name="device-sony-common-headers" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14"/>
