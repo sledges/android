@@ -40,7 +40,7 @@
   <project name="device/google/wahoo"/>
   <project name="device/sample"/>
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="master"/>
-  <project name="kernel" path="kernel/sony/msm-4.4/kernel" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r20_20180402"/>
   <project name="kernel/tests"/>
   <project name="droid-hal-sony-nile" path="rpm" remote="krnlyng" revision="master"/>
   <project name="hybris-boot" path="hybris/hybris-boot" remote="krnlyng" revision="jb41841_1"/>

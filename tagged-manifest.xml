@@ -65,7 +65,7 @@
   <project name="droid-hal-sony-nile" path="rpm" remote="krnlyng" revision="68ddf0dd1c556f5053f6c91e5de41d5badaeb375" upstream="master"/>
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="d8a7fe7303cdc5f1087a186cd95388c979fc4dad" upstream="master"/>
   <project name="hybris-boot" path="hybris/hybris-boot" remote="krnlyng" revision="51968ae8a3d4940033820496b0230479f04bc89c" upstream="jb41841_1"/>
-  <project name="kernel" path="kernel/sony/msm-4.4/kernel" remote="sony" revision="63ce4bc2ddfcbcd9cfd4a3fd5fd492a18f9c9416" upstream="aosp/LA.UM.6.4.r1"/>
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="b845cc29ccecf493342d4ed070cebcc6a9874c3e" upstream="hybris-sony-aosp-8.1.0_r20_20180402"/>
   <project name="kernel/tests" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r20"/>
   <project name="libhybris-1" path="external/libhybris" remote="krnlyng" revision="067914df53f7261ef0a884f9a505f598805a7ec8" upstream="android8-initial"/>
   <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="26d245e83c5dff8c2e05add0cfd9ed420d907df6" upstream="master"/>
