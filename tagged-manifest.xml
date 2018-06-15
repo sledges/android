@@ -62,7 +62,7 @@
   <project clone-depth="1" name="device/google/vrservices" revision="b290ba549b38447937773e3698e4678015550684" upstream="refs/tags/android-8.1.0_r20"/>
   <project name="device/google/wahoo" revision="7ea9b3164552606a74c2b58815eaa0bf947c5b3f" upstream="refs/tags/android-8.1.0_r20"/>
   <project name="device/sample" revision="509608c76570d623c05952c8eecdc2868ca8a952" upstream="refs/tags/android-8.1.0_r20"/>
-  <project name="droid-hal-sony-nile" path="rpm" remote="krnlyng" revision="68ddf0dd1c556f5053f6c91e5de41d5badaeb375" upstream="master"/>
+  <project name="droid-hal-sony-nile" path="rpm" remote="krnlyng" revision="65ea89ac2ba43830b0c1eea4507551be60e16b68" upstream="master"/>
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="d8a7fe7303cdc5f1087a186cd95388c979fc4dad" upstream="master"/>
   <project name="hybris-boot" path="hybris/hybris-boot" remote="krnlyng" revision="51968ae8a3d4940033820496b0230479f04bc89c" upstream="jb41841_1"/>
   <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="b845cc29ccecf493342d4ed070cebcc6a9874c3e" upstream="hybris-sony-aosp-8.1.0_r20_20180402"/>
