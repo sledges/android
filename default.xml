@@ -42,8 +42,8 @@
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="master"/>
   <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r20_20180402"/>
   <project name="kernel/tests"/>
-  <project name="droid-hal-sony-nile" path="rpm" remote="krnlyng" revision="master"/>
-  <project name="hybris-boot" path="hybris/hybris-boot" remote="krnlyng" revision="jb41841_1"/>
+  <project name="droid-hal-sony-nile" path="rpm" remote="hybris" revision="master"/>
+  <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="master"/>
   <project name="libhybris-1" path="external/libhybris" remote="krnlyng" revision="android8-initial"/>
   <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="master"/>
   <project name="android_external_busybox_prebuilt" path="external/busybox" remote="hybris" revision="master"/>
