@@ -13,12 +13,12 @@
   <project name="android_bionic" path="bionic" remote="hybris-patches" revision="8bd8f3cafb1bd147f167d87f885ee93a6b58bb01" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_build" path="build/make" remote="hybris-patches" revision="bf146f8e9bb8de0a0592e7b850a58ae04498ea5b" upstream="hybris-sony-aosp-8.1.0_r35_20180714">
     <copyfile dest="Makefile" src="core/root.mk"/>
-    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
-    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
-    <linkfile dest="build/core" src="core"/>
-    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
-    <linkfile dest="build/target" src="target"/>
-    <linkfile dest="build/tools" src="tools"/>
+    <copyfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <copyfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <copyfile dest="build/core" src="core"/>
+    <copyfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <copyfile dest="build/target" src="target"/>
+    <copyfile dest="build/tools" src="tools"/>
   </project>
   <project name="android_external_busybox_prebuilt" path="external/busybox" remote="hybris" revision="aa4daae08ca5721fd5b7fa0b4a995126e71d570a" upstream="master"/>
   <project name="android_external_selinux_stubs" path="external/selinux_stubs" remote="hybris" revision="7951a59771009449f538f462c1bf6e1fa43892a5" upstream="master"/>
@@ -75,8 +75,8 @@
   <project name="platform/build/blueprint" path="build/blueprint" revision="a011038d864e3faa528ec1037a568e5824955a0f" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/build/kati" path="build/kati" revision="51f78826f5d431981903ef82c51bdb868438717d" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/build/soong" path="build/soong" revision="3d83ebe1768d676c90e8fa3d508157f4654821e5" upstream="refs/tags/android-8.1.0_r35">
-    <linkfile dest="Android.bp" src="root.bp"/>
-    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
+    <copyfile dest="Android.bp" src="root.bp"/>
+    <copyfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project name="platform/compatibility/cdd" path="compatibility/cdd" revision="ca5bd0f77af6feda04b2fccb5318fac8abb86339" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/cts" path="cts" revision="9c24395f6940a5d5c0b5c2256a42f862e4e9f6fb" upstream="refs/tags/android-8.1.0_r35"/>
@@ -588,7 +588,7 @@
   <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="8dd3029197cdaa6d9e867d4c645b489a6f9f52b6" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="release-keys" path="vendor/oss/release-keys" remote="sony" revision="3fc0cf01697b7ac667ca75047bb81af6ccc8d29d" upstream="master"/>
   <project name="repo_update" path="vendor/oss/repo_update" remote="sony" revision="302668be3e9f818737bed7fd9d27bead9218f25d" upstream="android-8.1.0_r3">
-    <linkfile dest="repo_update.sh" src="repo_update.sh"/>
+    <copyfile dest="repo_update.sh" src="repo_update.sh"/>
   </project>
   <project name="thermanager" path="vendor/oss/thermanager" remote="sony" revision="87297db29b81ae9dedb386f75db8457e871a5a59" upstream="master"/>
   <project name="timekeep" path="vendor/oss/timekeep" remote="sony" revision="42ec86af6a5114539bfaf03805975709d9cb727a" upstream="master"/>
