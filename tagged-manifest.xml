@@ -32,7 +32,6 @@
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="07ee5f701bcf277d28d87b476b59dada470d465c" upstream="master"/>
   <project name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="0109896e68d197c34e6bf64a156c1288d9cfdadc" upstream="master"/>
   <project name="device-sony-common" path="device/sony/common" remote="sony" revision="23b87e74e417230f6c89138370b3fc430306aaa9" upstream="master"/>
-  <project name="device-sony-common-headers" path="kernel/sony/msm-4.9/common-headers" remote="sony" revision="1561085a3e006dc99d5ae387babad60a2fabd961" upstream="aosp/LA.UM.6.3.r1"/>
   <project name="device-sony-common-headers" path="kernel/sony/msm-4.4/common-headers" remote="sony" revision="c7e52e0c6cedf83c15d938688365d0a6b6bbd3fe" upstream="aosp/LA.UM.6.4.r1"/>
   <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="e8da7c77f51f3a4fc3cf140a5679887735b7e8dd" upstream="master"/>
   <project name="device-sony-dora" path="device/sony/dora" remote="sony" revision="2f044dc0f0ab2ad62d0b9b1ca55881b12abaf5ff" upstream="master"/>
