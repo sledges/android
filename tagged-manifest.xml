@@ -70,7 +70,7 @@
   <project name="packages-apps-FMRadio" path="packages/apps/FMRadio" remote="sony" revision="680e46c71260e0bbd9517b82a9b7be7902745698" upstream="master"/>
   <project name="packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="sony" revision="35119720fcb561ad121b69f6adb52d312b937d4e" upstream="master"/>
   <project name="platform/art" path="art" revision="7f13ce4d95e2f8e38a82021058025509b7e994df" upstream="refs/tags/android-8.1.0_r35"/>
-  <project name="platform/bootable/recovery" path="bootable/recovery" revision="3c6a8d9187b92257bb28939bf9474865f30846f7" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="android_bootable_recovery" remote="hybris-patches" path="bootable/recovery" revision="3c6a8d9187b92257bb28939bf9474865f30846f7" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="platform/build/blueprint" path="build/blueprint" revision="a011038d864e3faa528ec1037a568e5824955a0f" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/build/kati" path="build/kati" revision="51f78826f5d431981903ef82c51bdb868438717d" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/build/soong" path="build/soong" revision="3d83ebe1768d676c90e8fa3d508157f4654821e5" upstream="refs/tags/android-8.1.0_r35">
@@ -398,13 +398,13 @@
   <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="5fe01443e69365f7c6017f08d8ec0509417a680e" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/hardware/invensense" path="hardware/invensense" revision="11e5ff75af866f91622b6008fa13db1c3685ae69" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="7e46cfffd8c8db9547b4717b8408dd9b0cb83f29" upstream="refs/tags/android-8.1.0_r35"/>
-  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="0465b4d34b2fd675a2f411c5a57d38b141bd0212" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
-  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="ff390f39c6cc6e4c54c0257ed63a2e340454ddc1" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="android_hardware_qcom_audio" remote="hybris-patches" path="hardware/qcom/audio" revision="0465b4d34b2fd675a2f411c5a57d38b141bd0212" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="android_hardware_qcom_bt" remote="hybris-patches" path="hardware/qcom/bt" revision="ff390f39c6cc6e4c54c0257ed63a2e340454ddc1" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" revision="da0af80f9a1eba30270e58efeac9481c4dabdc46" upstream="refs/tags/android-8.1.0_r35"/>
-  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="d3779468c4821b0914c5d67088577b5874a3633e" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="android_hardware_qcom_display" remote="hybris-patches" path="hardware/qcom/display" revision="d3779468c4821b0914c5d67088577b5874a3633e" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="9765e4b4f49b63b7c5cd7f1b87c369fb9cff6f9b" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="b9d7a35c05cac901a65d09849f90f1b4146d10e8" upstream="refs/tags/android-8.1.0_r35"/>
-  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="e01e032feb6df056104beda1cf682afb5ef98a2f" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="android_hardware_qcom_media" remote="hybris-patches" path="hardware/qcom/media" revision="e01e032feb6df056104beda1cf682afb5ef98a2f" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="platform/hardware/qcom/msm8998" path="hardware/qcom/msm8998" revision="4d554ba927d41caac6128d731b66e6d593b27514" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="3a098ee1f89c398b9d6e7b5dfae9c694994f8bc4" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="8b94981ce47caac688d27fe222c3ce18b046e1ab" upstream="refs/tags/android-8.1.0_r35"/>
@@ -557,7 +557,7 @@
   <project name="platform/system/libvintf" path="system/libvintf" revision="9db9b147602210e6ae4b40848c49a7bfeeaefcff" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/system/media" path="system/media" revision="75e3545d978315d1988221181c7506c06b33a8ae" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/system/netd" path="system/netd" revision="cb160d358263b4cd5aca3d54521355a6737828a2" upstream="refs/tags/android-8.1.0_r35"/>
-  <project name="platform/system/nfc" path="system/nfc" revision="0e036edb77546f74a2c7eea9c5506415cb1dde2e" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="android_system_nfc" remote="hybris-patches" path="system/nfc" revision="0e036edb77546f74a2c7eea9c5506415cb1dde2e" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="platform/system/nvram" path="system/nvram" revision="a2cbda182e4631dc45b3e988db9a6c0a0c36a610" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/system/security" path="system/security" revision="8b84e6d77fbd69a71fb051f21eb64b597927cbb1" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="platform/system/sepolicy" path="system/sepolicy" revision="bd143923ddea313bee84042e8320b5fa8eb4051e" upstream="refs/tags/android-8.1.0_r35"/>
