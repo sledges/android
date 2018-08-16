@@ -599,11 +599,8 @@
   <project name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="ee5fafdae0a9daecb2b801466fcb65969e4219fb" upstream="master"/>
   <project name="vendor-qcom-opensource-fm" path="vendor/qcom/opensource/fm" remote="sony" revision="aabbad189c592aa67facec37bb4d52eb5f991738" upstream="master"/>
   <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="034610b867dc47366e0696c315debc47d52c1dfb" upstream="o-mr1"/>
-  <project name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.9/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="da68c7f2f560703880d2204c9b050849dfed6aa3" upstream="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="da68c7f2f560703880d2204c9b050849dfed6aa3" upstream="aosp/LA.UM.6.4.r1"/>
-  <project name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.9/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="3f0e701ec2fd40984c66ddc6b4bb52d6c8a20fc1" upstream="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="3f0e701ec2fd40984c66ddc6b4bb52d6c8a20fc1" upstream="aosp/LA.UM.6.4.r1"/>
-  <project name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.9/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="e339e178b401041da40fe4f69fefeebc3b3ce0ce" upstream="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="e339e178b401041da40fe4f69fefeebc3b3ce0ce" upstream="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="9a40635a4a0b670affbc094feef344c23b7bd240" upstream="master"/>
   <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="24921115c43814037b663066ed6d47a4b8f56b2a" upstream="master"/>

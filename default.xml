@@ -600,11 +600,8 @@
   <project name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="master"/>
   <project name="vendor-qcom-opensource-fm" path="vendor/qcom/opensource/fm" remote="sony" revision="master"/>
   <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="o-mr1"/>
-  <project name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.9/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
-  <project name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.9/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
-  <project name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.9/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="master"/>
   <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="master"/>
