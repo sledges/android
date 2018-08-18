@@ -24,12 +24,12 @@
   <project name="android_bionic" path="bionic" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_build" path="build/make" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r35_20180714">
     <copyfile dest="Makefile" src="core/root.mk"/>
-    <copyfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
-    <copyfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
-    <copyfile dest="build/core" src="core"/>
-    <copyfile dest="build/envsetup.sh" src="envsetup.sh"/>
-    <copyfile dest="build/target" src="target"/>
-    <copyfile dest="build/tools" src="tools"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
   </project>
 
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="master"/>
@@ -75,8 +75,8 @@
   <project name="platform/build/blueprint" path="build/blueprint"/>
   <project name="platform/build/kati" path="build/kati"/>
   <project name="platform/build/soong" path="build/soong">
-    <copyfile dest="Android.bp" src="root.bp"/>
-    <copyfile dest="bootstrap.bash" src="bootstrap.bash"/>
+    <linkfile dest="Android.bp" src="root.bp"/>
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project name="platform/compatibility/cdd" path="compatibility/cdd"/>
   <project name="platform/cts" path="cts"/>
@@ -588,7 +588,7 @@
   <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib"/>
   <project name="release-keys" path="vendor/oss/release-keys" remote="sony" revision="master"/>
   <project name="repo_update" path="vendor/oss/repo_update" remote="sony" revision="android-8.1.0_r3">
-    <copyfile dest="repo_update.sh" src="repo_update.sh"/>
+    <linkfile dest="repo_update.sh" src="repo_update.sh"/>
   </project>
   <project name="thermanager" path="vendor/oss/thermanager" remote="sony" revision="master"/>
   <project name="timekeep" path="vendor/oss/timekeep" remote="sony" revision="master"/>
