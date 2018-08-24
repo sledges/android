@@ -402,7 +402,7 @@
   <project name="android_hardware_qcom_bt" remote="hybris-patches" path="hardware/qcom/bt" revision="ff390f39c6cc6e4c54c0257ed63a2e340454ddc1" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" revision="da0af80f9a1eba30270e58efeac9481c4dabdc46" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="android_hardware_qcom_display" remote="hybris-patches" path="hardware/qcom/display" revision="d3779468c4821b0914c5d67088577b5874a3633e" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
-  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="9765e4b4f49b63b7c5cd7f1b87c369fb9cff6f9b" upstream="refs/tags/android-8.1.0_r35"/>
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" revision="663dbe453987314ac5831efd07897b3e929d8023" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="b9d7a35c05cac901a65d09849f90f1b4146d10e8" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="android_hardware_qcom_media" remote="hybris-patches" path="hardware/qcom/media" revision="e01e032feb6df056104beda1cf682afb5ef98a2f" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="platform/hardware/qcom/msm8998" path="hardware/qcom/msm8998" revision="4d554ba927d41caac6128d731b66e6d593b27514" upstream="refs/tags/android-8.1.0_r35"/>
