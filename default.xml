@@ -34,26 +34,26 @@
 
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="master"/>
   <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
-  <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="master"/>
-  <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="master"/>
-  <project name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="master"/>
-  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="master"/>
+  <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="o-mr1"/>
   <project name="device-sony-common-headers" path="kernel/sony/msm-4.4/common-headers" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
-  <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="master"/>
-  <project name="device-sony-dora" path="device/sony/dora" remote="sony" revision="master"/>
-  <project name="device-sony-kagura" path="device/sony/kagura" remote="sony" revision="master"/>
-  <project name="device-sony-keyaki" path="device/sony/keyaki" remote="sony" revision="master"/>
-  <project name="device-sony-kugo" path="device/sony/kugo" remote="sony" revision="master"/>
-  <project name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="master"/>
-  <project name="device-sony-loire" path="device/sony/loire" remote="sony" revision="master"/>
-  <project name="device-sony-maple" path="device/sony/maple" remote="sony" revision="master"/>
-  <project name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="master"/>
-  <project name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="master"/>
-  <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="master"/>
-  <project name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="master"/>
-  <project name="device-sony-tama" path="device/sony/tama" remote="sony" revision="master"/>
-  <project name="device-sony-tone" path="device/sony/tone" remote="sony" revision="master"/>
-  <project name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="master"/>
+  <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-dora" path="device/sony/dora" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-kagura" path="device/sony/kagura" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-keyaki" path="device/sony/keyaki" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-kugo" path="device/sony/kugo" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-loire" path="device/sony/loire" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-maple" path="device/sony/maple" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-tama" path="device/sony/tama" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-tone" path="device/sony/tone" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="o-mr1"/>
   <project name="device/common"/>
   <project name="device/google/atv"/>
   <project name="device/google/contexthub"/>
