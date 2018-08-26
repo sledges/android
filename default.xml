@@ -34,26 +34,26 @@
 
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="master"/>
   <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
-  <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="master"/>
-  <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="master"/>
-  <project name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="master"/>
-  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="master"/>
+  <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="o-mr1"/>
   <project name="device-sony-common-headers" path="kernel/sony/msm-4.4/common-headers" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
-  <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="master"/>
-  <project name="device-sony-dora" path="device/sony/dora" remote="sony" revision="master"/>
-  <project name="device-sony-kagura" path="device/sony/kagura" remote="sony" revision="master"/>
-  <project name="device-sony-keyaki" path="device/sony/keyaki" remote="sony" revision="master"/>
-  <project name="device-sony-kugo" path="device/sony/kugo" remote="sony" revision="master"/>
-  <project name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="master"/>
-  <project name="device-sony-loire" path="device/sony/loire" remote="sony" revision="master"/>
-  <project name="device-sony-maple" path="device/sony/maple" remote="sony" revision="master"/>
-  <project name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="master"/>
-  <project name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="master"/>
-  <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="master"/>
-  <project name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="master"/>
-  <project name="device-sony-tama" path="device/sony/tama" remote="sony" revision="master"/>
-  <project name="device-sony-tone" path="device/sony/tone" remote="sony" revision="master"/>
-  <project name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="master"/>
+  <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-dora" path="device/sony/dora" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-kagura" path="device/sony/kagura" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-keyaki" path="device/sony/keyaki" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-kugo" path="device/sony/kugo" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-loire" path="device/sony/loire" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-maple" path="device/sony/maple" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-tama" path="device/sony/tama" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-tone" path="device/sony/tone" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="o-mr1"/>
   <project name="device/common"/>
   <project name="device/google/atv"/>
   <project name="device/google/contexthub"/>
@@ -64,7 +64,8 @@
   <project clone-depth="1" name="device/google/vrservices"/>
   <project name="device/google/wahoo"/>
   <project name="device/sample"/>
-  <project name="hardware-qcom-bootctrl" path="hardware/qcom/bootctrl" remote="sony" revision="master"/>
+  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" remote="aosp" />
+  <project path="hardware/qcom/display/sde" name="hardware-qcom-display" remote="sony" revision="aosp/LA.UM.6.3.r1" />
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="master"/>
   <project name="kernel/tests"/>
   <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="master"/>
@@ -598,6 +599,9 @@
   <project name="vendor-broadcom-wlan" path="vendor/broadcom/wlan" remote="sony" revision="master"/>
   <project name="vendor-nxp" path="vendor/nxp/" remote="sony" revision="master"/>
   <project name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="master"/>
+  <project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" remote="sony" revision="aosp/LA.UM.6.3.r1" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
+  </project>
   <project name="vendor-qcom-opensource-fm" path="vendor/qcom/opensource/fm" remote="sony" revision="master"/>
   <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="o-mr1"/>
   <project name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
