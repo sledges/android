@@ -598,6 +598,9 @@
   <project name="vendor-broadcom-wlan" path="vendor/broadcom/wlan" remote="sony" revision="master"/>
   <project name="vendor-nxp" path="vendor/nxp/" remote="sony" revision="master"/>
   <project name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="master"/>
+  <project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" remote="sony" revision="aosp/LA.UM.6.3.r1" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
+  </project>
   <project name="vendor-qcom-opensource-fm" path="vendor/qcom/opensource/fm" remote="sony" revision="master"/>
   <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="o-mr1"/>
   <project name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
