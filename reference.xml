@@ -1,3 +1,3 @@
 <reference>
-   <device name="sony-nile" url="https://github.com/mer-hybris/android.git" branch="hybris-sony-aosp-8.1.0_r20_20180402"/>
+   <device name="sony-nile" url="https://github.com/mer-hybris/android.git" branch="hybris-sony-aosp-8.1.0_r35_20180714"/>
 </reference>
