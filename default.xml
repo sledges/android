@@ -17,7 +17,7 @@
   <project name="platform/frameworks/native" remote="aosp" path="frameworks/native" revision="refs/tags/android-8.1.0_r35"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="refs/tags/android-8.1.0_r35"/>
   <project name="platform/system/core" path="system/core" revision="refs/tags/android-8.1.0_r35"/>
-  <project name="platform/bionic" path="bionic" revision="refs/tags/android-8.1.0_r35"/>
+  <project name="android_bionic" path="bionic" remote="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r35_20180714"/>
   <project name="platform/build" path="build/make" revision="refs/tags/android-8.1.0_r35">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
