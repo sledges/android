@@ -22,7 +22,7 @@
   <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="160df5bbfa289453c519f8c7b8f27bfee82c767f" upstream="o-mr1"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="c3f670d59069ed7d7b0bc2d1ea04550dccd8e05e" upstream="o-mr1"/>
   <project name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="0109896e68d197c34e6bf64a156c1288d9cfdadc" upstream="o-mr1"/>
-  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="9cb4f4e994ca5b8739624431afac8497757fc30f" upstream="o-mr1"/>
+  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="62bace1f538c0e51d6a34573311df82c685ea13d" upstream="o-mr1"/>
   <project name="device-sony-common-headers" path="kernel/sony/msm-4.4/common-headers" remote="sony" revision="c7e52e0c6cedf83c15d938688365d0a6b6bbd3fe" upstream="aosp/LA.UM.6.4.r1"/>
   <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="ad6cadc3ab865651a28fb4a67d726c2287697966" upstream="o-mr1"/>
   <project name="device-sony-dora" path="device/sony/dora" remote="sony" revision="b0b27e3effe6a107560327cf38bf654b61eeedee" upstream="o-mr1"/>
@@ -32,7 +32,7 @@
   <project name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="93f5cac07ecc294d14366828bf15e28e3db3126c" upstream="o-mr1"/>
   <project name="device-sony-loire" path="device/sony/loire" remote="sony" revision="ae59be76a7202b5c322ab06e04b81a1c5369786a" upstream="o-mr1"/>
   <project name="device-sony-maple" path="device/sony/maple" remote="sony" revision="b5356bc08b9846e45985c9405e36bd0f81909adf" upstream="o-mr1"/>
-  <project name="device-sony-nile" path="device/sony/nile" remote="hybris-patches" revision="df760b3c7ed0fea60a62926fea8b93a7aa748964" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="device-sony-nile" path="device/sony/nile" remote="hybris-patches" revision="1150ee8b70e1db22521cb9d5927055d1887b50aa" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="cffabc89f4988eaeb32dfb79566a949e861203e1" upstream="o-mr1"/>
   <project name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="2e694b40dab5b9daca5bd237a6e9535d7b5b945d" upstream="o-mr1"/>
   <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="38a32428446ff52965c21d58c99d03b2493eb0bc" upstream="o-mr1"/>
