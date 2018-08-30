@@ -12,7 +12,7 @@
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="5ce2ae047abc44c1547d6ceebaa22c58ae1bd477" upstream="master"/>
   <project name="android_bionic" path="bionic" remote="hybris-patches" revision="8bd8f3cafb1bd147f167d87f885ee93a6b58bb01" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_bootable_recovery" path="bootable/recovery" remote="hybris-patches" revision="3c6a8d9187b92257bb28939bf9474865f30846f7" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
-  <project name="android_build" path="build/make" remote="hybris-patches" revision="bf146f8e9bb8de0a0592e7b850a58ae04498ea5b" upstream="hybris-sony-aosp-8.1.0_r35_20180714">
+  <project name="android_build" path="build/make" remote="hybris-patches" revision="442243a6c70408f9bc3c8cbff2db5467feb79e8c" upstream="hybris-sony-aosp-8.1.0_r35_20180714">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -31,8 +31,8 @@
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="hybris-patches" revision="d3779468c4821b0914c5d67088577b5874a3633e" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="hybris-patches" revision="663dbe453987314ac5831efd07897b3e929d8023" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="hybris-patches" revision="e01e032feb6df056104beda1cf682afb5ef98a2f" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
-  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="bf390d946d07107ba0a62f00ba3270dd3e93af92" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
-  <project name="android_system_core" path="system/core" remote="hybris-patches" revision="70b3da2e1f9865a1196c102da8cddf5eb9d39500" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="f67d67d45b835ac1a5356cc158dc77e924f8e2b6" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="android_system_core" path="system/core" remote="hybris-patches" revision="8b9d9f1397390e2db1fd8421211c71208931afd7" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_system_nfc" path="system/nfc" remote="hybris-patches" revision="0e036edb77546f74a2c7eea9c5506415cb1dde2e" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="dc9af5d36009caa60b9b01a256a7f8ce4c1897f1" upstream="aosp/LA.UM.6.4.r1"/>
   <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="160df5bbfa289453c519f8c7b8f27bfee82c767f" upstream="o-mr1"/>
