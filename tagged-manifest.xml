@@ -8,7 +8,7 @@
 
   <default remote="aosp" revision="refs/tags/android-8.1.0_r35" sync-j="4"/>
 
-  <project name="droid-src-sony-nile" path="rpm" remote="hybris" revision="f98663d20bc76968a0cc98c8ca7429f67f86be5f" upstream="master"/>
+  <project name="droid-src-sony-nile" path="rpm" remote="hybris" revision="20b8e40c3a1e0da9744e8d83aa1158eb1383d762" upstream="master"/>
   
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="5ce2ae047abc44c1547d6ceebaa22c58ae1bd477" upstream="master"/>
   <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="dc9af5d36009caa60b9b01a256a7f8ce4c1897f1" upstream="aosp/LA.UM.6.4.r1"/>
