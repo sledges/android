@@ -3,19 +3,21 @@
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/NXPNFCProject/" name="NXP"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
-  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r35_20180714"/>
+  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r47_20181015"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
 
-  <default remote="aosp" revision="refs/tags/android-8.1.0_r35" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-8.1.0_r47" sync-j="4"/>
 
   <project name="droid-src-sony-nile" path="rpm" remote="hybris" revision="master"/>
 
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="master"/>
   <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
   <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="o-mr1"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="o-mr1"/>
   <project name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="o-mr1"/>
   <project name="device-sony-common" path="device/sony/common" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-common-headers" path="kernel/sony/msm-4.4/common-headers" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
   <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="o-mr1"/>
   <project name="device-sony-dora" path="device/sony/dora" remote="sony" revision="o-mr1"/>
   <project name="device-sony-kagura" path="device/sony/kagura" remote="sony" revision="o-mr1"/>
@@ -24,13 +26,14 @@
   <project name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="o-mr1"/>
   <project name="device-sony-loire" path="device/sony/loire" remote="sony" revision="o-mr1"/>
   <project name="device-sony-maple" path="device/sony/maple" remote="sony" revision="o-mr1"/>
-  <project name="device-sony-nile" path="device/sony/nile" remote="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="device-sony-nile" path="device/sony/nile" remote="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r47_20181015"/>
   <project name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="o-mr1"/>
   <project name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="o-mr1"/>
   <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="o-mr1"/>
   <project name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="o-mr1"/>
   <project name="device-sony-tama" path="device/sony/tama" remote="sony" revision="o-mr1"/>
   <project name="device-sony-tone" path="device/sony/tone" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="o-mr1"/>
   <project name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="o-mr1"/>
   <project name="device/common"/>
   <project name="device/google/atv"/>
