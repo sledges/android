@@ -33,7 +33,7 @@
   <project name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="cefb58f43d20ed7b58103c7a521e27b08b195444" upstream="o-mr1"/>
   <project name="device-sony-tama" path="device/sony/tama" remote="sony" revision="cbf57e0117d6007bbac21e96f759c38431abb2aa" upstream="o-mr1"/>
   <project name="device-sony-tone" path="device/sony/tone" remote="sony" revision="094e49b1fbaec4473f1811f2929e09e46d196946" upstream="o-mr1"/>
-  <project name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="25e87a87c1b3a38b341172b7aba2f0c3bfdddd5d" upstream="o-mr1"/>
+  <project name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="0921df918ad6a3ebfb4861d5164ef66a80ad4537" upstream="o-mr1"/>
   <project name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="dcb411e5af6eff9bdc90161e2bcd1962cd50d360" upstream="o-mr1"/>
   <project name="device/common" revision="f87323bed1150074fee5a0ad64d76aaed0c58f00" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="device/google/atv" revision="0956280428ba979a2a78e852dd484167ece3b9af" upstream="refs/tags/android-8.1.0_r47"/>
