@@ -47,7 +47,7 @@
   <project name="device/sample" revision="509608c76570d623c05952c8eecdc2868ca8a952" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="hardware-qcom-display" path="hardware/qcom/display/sde" remote="sony" revision="04a62d555aaffa906dd60b7c973f1fe6f40bb985" upstream="aosp/LA.UM.6.3.r1"/>
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="d8a7fe7303cdc5f1087a186cd95388c979fc4dad" upstream="master"/>
-  <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="6010d6cd63dedafc124e6b9e3769511aa812d2be" upstream="master"/>
+  <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="eda05ed28821d91a38f98c471f92fdc56f6c7714" upstream="master"/>
   <project name="packages-apps-FMRadio" path="packages/apps/FMRadio" remote="sony" revision="680e46c71260e0bbd9517b82a9b7be7902745698" upstream="master"/>
   <project name="packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="sony" revision="d611b3551017901b3417f589f6ac095767cbcec8" upstream="master"/>
   <project name="platform/art" path="art" revision="7f13ce4d95e2f8e38a82021058025509b7e994df" upstream="refs/tags/android-8.1.0_r47"/>
@@ -348,7 +348,7 @@
   <project name="platform/external/zlib" path="external/zlib" revision="5ce335946fc078f2273cf7bd7ade9b304d816c58" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/external/zopfli" path="external/zopfli" revision="069cb023c39358bc0e1b3dc0397b8fcdd84b4d44" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/external/zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" upstream="refs/tags/android-8.1.0_r47"/>
-  <project name="android_frameworks_av" path="frameworks/av" remote="hybris-patches" revision="e41d3a2cc59cf0ea4208fd235b22471e9df05252" upstream="droid-src-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="android_frameworks_av" path="frameworks/av" remote="hybris-patches" revision="b634efc5b73ae433d87ffffc8f8785255bcbc782" upstream="droid-src-sony-aosp-8.1.0_r47_20181015"/>
   <project name="android_frameworks_base" path="frameworks/base" remote="hybris-patches" revision="aaada364d2e406ef0806240cf31c636faa7d6471" upstream="droid-src-sony-aosp-8.1.0_r47_20181015"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="8d1f0d7f4a9fe6611b2a435993e2642250f8bc9b" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="821f636d0b881a930cfc284d4d82ae39862d3a3b" upstream="refs/tags/android-8.1.0_r47"/>
