@@ -501,16 +501,9 @@
   <project clone-depth="1" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="88fa20009d5581163b4656d52e2fcc1f56042da6" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" revision="f6f661b424f646bc5ddf9e1b1e644abb492b7547" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="a8a50e922b39a2dba7e56030c660e1aabca168f3" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="f59dae743731eef0cf012408603291c253eed5c3" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="ce80566d209ef0fba56e5bd4cc4cf11435f83a71" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/prebuilts/deqp" path="prebuilts/deqp" revision="c208ecfb707600b86a79031291bf48b220f0610e" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="2538644348d06278149f8f918930d058cb4f32a7" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="e03deb549aaf9281795cab7d4970fdb165d21734" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="6d08ca9f45ff685648fd13c75bf5cac4b11c19bb" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="f86db688fb0eec398fd33594609ecfb258c1fa1e" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" revision="ec5aa66aaa4964c27564d0ec84dc1f18a2d72b7e" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" revision="d942564c9331f07026a8f78502d8571206eb7be4" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="576c22f0b05206afd4f0f01bc36f9c0904ae7ebe" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="7a28c220c2e9001825328dca6188ef0077a80a88" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="c348b64ea1e2015a576485aa787dc70dda9ef396" upstream="refs/tags/android-8.1.0_r47"/>
@@ -519,9 +512,7 @@
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="e76a9a506d7ad132f107eb2f7c27b6a8ccb68b91" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" revision="388fdc4995d374d76a0c4b292afabac91638e134" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="ba87ed00b06d1dbec5e68abdb9110c914ea006c6" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/gdb/darwin-x86" path="prebuilts/gdb/darwin-x86" revision="0a8c90248264a8b26970b4473770bcc3df8515fe" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" revision="4adfde8bc82dd39f59e0445588c3e599ada477d2" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86" revision="d240e4f742d2799a3b4bf1ba4d695d0e28dc9040" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" revision="9802e351bf16f8137807da945a4bc36371a16be6" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" revision="23dda3312e9a3127eca9c4085a41b5621bc6276d" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" revision="68dabb15582c2e86c9a5ef863e193892b7843792" upstream="refs/tags/android-8.1.0_r47"/>
@@ -530,7 +521,6 @@
   <project clone-depth="1" name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" revision="268c5495b8003e09173a1ae7b1e9dc9b019e300d" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/misc" path="prebuilts/misc" revision="598387341a7104f2bd46fca3e2c1161bce609de3" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="3c28f6818fe12e3572dcde6fcb327a4c9362acfd" upstream="refs/tags/android-8.1.0_r47"/>
-  <project clone-depth="1" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="49b50adb1a149100905b368570c2cb56cadc0854" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="8ba944d14b8e1980ed3e8a26db83fde19dc12e50" upstream="refs/tags/android-8.1.0_r47"/>
   <project clone-depth="1" name="platform/prebuilts/tools" path="prebuilts/tools" revision="a001fcbfab0cab392f6d3a311cec27324d3dac6e" upstream="refs/tags/android-8.1.0_r47"/>
