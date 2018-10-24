@@ -51,7 +51,7 @@
   <project name="packages-apps-FMRadio" path="packages/apps/FMRadio" remote="sony" revision="680e46c71260e0bbd9517b82a9b7be7902745698" upstream="master"/>
   <project name="packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="sony" revision="d611b3551017901b3417f589f6ac095767cbcec8" upstream="master"/>
   <project name="platform/art" path="art" revision="7f13ce4d95e2f8e38a82021058025509b7e994df" upstream="refs/tags/android-8.1.0_r47"/>
-  <project name="android_bionic" path="bionic" remote="hybris-patches" revision="c56a5a47311467bb44c54b4503a3437fd6c5aa92" upstream="droid-src-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="android_bionic" path="bionic" remote="hybris-patches" revision="03e5ff5bf5f7c03c94a21ef3fcbd60cd849c5f2b" upstream="droid-src-sony-aosp-8.1.0_r47_20181015"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="ec958fd4ee7a60bae0f980a78a146402316b0b9f" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/build" path="build/make" revision="625affad00c9b98c288aaa32e0172433282960e6" upstream="refs/tags/android-8.1.0_r47">
     <copyfile dest="Makefile" src="core/root.mk"/>
