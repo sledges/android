@@ -22,7 +22,7 @@
   </project>
   <project name="android_external_busybox_prebuilt" path="external/busybox" remote="hybris" revision="aa4daae08ca5721fd5b7fa0b4a995126e71d570a" upstream="master"/>
   <project name="android_external_selinux_stubs" path="external/selinux_stubs" remote="hybris" revision="7951a59771009449f538f462c1bf6e1fa43892a5" upstream="master"/>
-  <project name="android_frameworks_av" path="frameworks/av" remote="hybris-patches" revision="dc0c25ae3e066b48b0fba34ef8cb3cd8f596c1ec" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="android_frameworks_av" path="frameworks/av" remote="hybris-patches" revision="d7d10273bf61cf49a17ffa825d974fcd483f8f68" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
   <project name="android_frameworks_base" path="frameworks/base" remote="hybris-patches" revision="aaada364d2e406ef0806240cf31c636faa7d6471" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
   <project name="android_frameworks_native" path="frameworks/native" remote="hybris-patches" revision="6f17bd4a4988fb466fe369c6661e502fb27982ac" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="hybris-patches" revision="d798db4236e0baa4111ab2633236a3a7eefc66c5" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
@@ -78,7 +78,7 @@
   <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="e2bb43cd21c8b7950e47f79353f7a02f297c5ecc" upstream="master"/>
   <project name="kernel/tests" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="libhybris" path="external/libhybris" remote="hybris" revision="3c96694c1f534fa27484f72c83361bf77ebd2933" upstream="android8-initial"/>
-  <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="6010d6cd63dedafc124e6b9e3769511aa812d2be" upstream="master"/>
+  <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="eda05ed28821d91a38f98c471f92fdc56f6c7714" upstream="master"/>
   <project name="mer-kernel-check" path="hybris/mer-kernel-check" remote="hybris" revision="39b5ad47853e7cafe11c81c0ba4d71ba550f31c3" upstream="master"/>
   <project name="packages-apps-FMRadio" path="packages/apps/FMRadio" remote="sony" revision="680e46c71260e0bbd9517b82a9b7be7902745698" upstream="master"/>
   <project name="packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="sony" revision="d611b3551017901b3417f589f6ac095767cbcec8" upstream="master"/>
