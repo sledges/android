@@ -401,7 +401,7 @@
   <project name="platform/hardware/invensense" path="hardware/invensense"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project name="android_hardware_qcom_audio" remote="hybris-patches" path="hardware/qcom/audio" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_hardware_qcom_bootctrl" remote="hybris-patches" name="hardware/qcom/bootctrl" revision="hybris-sony-aosp-8.1.0_r47_20181015" />
+  <project name="android_hardware_qcom_bootctrl" remote="hybris-patches" path="hardware/qcom/bootctrl" revision="hybris-sony-aosp-8.1.0_r47_20181015" />
   <project name="android_hardware_qcom_bt" remote="hybris-patches" path="hardware/qcom/bt" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
   <project name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr"/>
   <project name="android_hardware_qcom_display" remote="hybris-patches" path="hardware/qcom/display" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
