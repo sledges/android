@@ -33,7 +33,7 @@
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="hybris-patches" revision="663dbe453987314ac5831efd07897b3e929d8023" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="hybris-patches" revision="b013e6f93bdf0257275136a2fa4e16c2e9f10bae" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
   <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="2a7e6eb260868bf0dc0afbfda9a0aed700950d2f" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_system_core" path="system/core" remote="hybris-patches" revision="30b62bba97dd1cb1192470954aa2b649b7142b0a" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="android_system_core" path="system/core" remote="hybris-patches" revision="3a94ff983623f83393b7ca4818b9fd941d6901ab" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
   <project name="android_system_nfc" path="system/nfc" remote="hybris-patches" revision="0e036edb77546f74a2c7eea9c5506415cb1dde2e" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
 
 
