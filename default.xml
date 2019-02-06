@@ -3,10 +3,10 @@
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/NXPNFCProject/" name="NXP"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
-  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r47_20181015"/>
+  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r52_20190206"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
 
-  <default remote="aosp" revision="refs/tags/android-8.1.0_r47" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-8.1.0_r52" sync-j="4"/>
 
   <project name="droid-src-sony-nile" path="rpm" remote="hybris" revision="master"/>
 
@@ -26,7 +26,7 @@
   <project name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="o-mr1"/>
   <project name="device-sony-loire" path="device/sony/loire" remote="sony" revision="o-mr1"/>
   <project name="device-sony-maple" path="device/sony/maple" remote="sony" revision="o-mr1"/>
-  <project name="device-sony-nile" path="device/sony/nile" remote="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="device-sony-nile" path="device/sony/nile" remote="hybris-patches"/>
   <project name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="o-mr1"/>
   <project name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="o-mr1"/>
   <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="o-mr1"/>
@@ -400,7 +400,6 @@
   <project name="android_hardware_qcom_gps" remote="hybris-patches" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project name="android_hardware_qcom_media" remote="hybris-patches" path="hardware/qcom/media"/>
-  <project name="platform/hardware/qcom/msm8998" path="hardware/qcom/msm8998"/>
   <project name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
