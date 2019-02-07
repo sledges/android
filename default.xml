@@ -2,27 +2,28 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris"/>
-  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
+  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-8.1.0_r52_20190206"/>
+  <remote fetch="https://github.com/mer-hybris/" name="sony-patches" revision="droid-src-sony-aosp-8.1.0_r52_20190206"/>
   <remote fetch="https://github.com/NXPNFCProject/" name="NXP"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
   
-  <default remote="aosp" revision="refs/tags/android-8.1.0_r47" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-8.1.0_r52" sync-j="4"/>
 
-  <project name="device-sony-nile" path="device/sony/nile" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="device-sony-nile" path="device/sony/nile" remote="sony-patches"/>
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches"/>
   <project name="droid-hal-sony-nile" path="rpm" remote="hybris" revision="master"/>
   <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="master"/>
   <project name="mer-kernel-check" path="hybris/mer-kernel-check" remote="hybris" revision="master"/>
   <project name="libhybris" path="external/libhybris" remote="hybris" revision="android8-initial"/>
   <project name="android_external_busybox_prebuilt" path="external/busybox" remote="hybris" revision="master"/>
   <project name="android_external_selinux_stubs" path="external/selinux_stubs" remote="hybris" revision="master"/>
-  <project name="android_frameworks_av" path="frameworks/av" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_frameworks_base" path="frameworks/base" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_frameworks_native" path="frameworks/native" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_system_core" path="system/core" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_bionic" path="bionic" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_build" path="build/make" remote="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015">
+  <project name="android_frameworks_av" path="frameworks/av" remote="hybris-patches"/>
+  <project name="android_frameworks_base" path="frameworks/base" remote="sony-patches"/>
+  <project name="android_frameworks_native" path="frameworks/native" remote="hybris-patches"/>
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="hybris-patches"/>
+  <project name="android_system_core" path="system/core" remote="hybris-patches"/>
+  <project name="android_bionic" path="bionic" remote="hybris-patches"/>
+  <project name="android_build" path="build/make" remote="hybris-patches">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -73,7 +74,7 @@
   <project name="packages-apps-FMRadio" path="packages/apps/FMRadio" remote="sony" revision="master"/>
   <project name="packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="sony" revision="master"/>
   <project name="platform/art" path="art"/>
-  <project name="android_bootable_recovery" remote="hybris-patches" path="bootable/recovery" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery"/>
   <project name="platform/build/blueprint" path="build/blueprint"/>
   <project name="platform/build/kati" path="build/kati"/>
   <project name="platform/build/soong" path="build/soong">
@@ -400,15 +401,14 @@
   <project name="platform/hardware/interfaces" path="hardware/interfaces"/>
   <project name="platform/hardware/invensense" path="hardware/invensense"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="android_hardware_qcom_audio" remote="hybris-patches" path="hardware/qcom/audio" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_hardware_qcom_bootctrl" remote="hybris-patches" path="hardware/qcom/bootctrl" revision="hybris-sony-aosp-8.1.0_r47_20181015" />
-  <project name="android_hardware_qcom_bt" remote="hybris-patches" path="hardware/qcom/bt" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="android_hardware_qcom_audio" remote="sony-patches" path="hardware/qcom/audio"/>
+  <project name="android_hardware_qcom_bootctrl" remote="sony-patches" path="hardware/qcom/bootctrl" />
+  <project name="android_hardware_qcom_bt" remote="sony-patches" path="hardware/qcom/bt"/>
   <project name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr"/>
-  <project name="android_hardware_qcom_display" remote="hybris-patches" path="hardware/qcom/display" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="android_hardware_qcom_gps" remote="hybris-patches" path="hardware/qcom/gps" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="android_hardware_qcom_display" remote="sony-patches" path="hardware/qcom/display"/>
+  <project name="android_hardware_qcom_gps" remote="sony-patches" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
-  <project name="android_hardware_qcom_media" remote="hybris-patches" path="hardware/qcom/media" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
-  <project name="platform/hardware/qcom/msm8998" path="hardware/qcom/msm8998"/>
+  <project name="android_hardware_qcom_media" remote="sony-patches" path="hardware/qcom/media"/>
   <project name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
@@ -560,7 +560,7 @@
   <project name="platform/system/libvintf" path="system/libvintf"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
-  <project name="android_system_nfc" remote="hybris-patches" path="system/nfc" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
+  <project name="android_system_nfc" remote="sony-patches" path="system/nfc"/>
   <project name="platform/system/nvram" path="system/nvram"/>
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/sepolicy" path="system/sepolicy"/>
@@ -569,7 +569,7 @@
   <project name="platform/system/tools/hidl" path="system/tools/hidl"/>
   <project name="platform/system/tpm" path="system/tpm"/>
   <project name="platform/system/update_engine" path="system/update_engine"/>
-  <project name="platform/system/vold" path="system/vold"/>
+  <project name="android_system_vold" remote="sony-patches" path="system/vold"/>
   <project name="platform/test/framework" path="test/framework"/>
   <project name="platform/test/sts" path="test/sts"/>
   <project name="platform/test/vts" path="test/vts"/>

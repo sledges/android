@@ -3,10 +3,10 @@
   <remote fetch="https://github.com/NXPNFCProject/" name="NXP"/>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris"/>
-  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-8.1.0_r47_20181015"/>
+  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-8.1.0_r52_20190206"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
   
-  <default remote="aosp" revision="refs/tags/android-8.1.0_r47" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-8.1.0_r52" sync-j="4"/>
   
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="084199caaab0e7eb744828d350805a678c3bd8f9" upstream="master"/>
   <project name="android_bionic" path="bionic" remote="hybris-patches" revision="8bd8f3cafb1bd147f167d87f885ee93a6b58bb01" upstream="hybris-sony-aosp-8.1.0_r47_20181015"/>
@@ -411,7 +411,6 @@
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="7e46cfffd8c8db9547b4717b8408dd9b0cb83f29" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" revision="da0af80f9a1eba30270e58efeac9481c4dabdc46" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="b9d7a35c05cac901a65d09849f90f1b4146d10e8" upstream="refs/tags/android-8.1.0_r47"/>
-  <project name="platform/hardware/qcom/msm8998" path="hardware/qcom/msm8998" revision="4d554ba927d41caac6128d731b66e6d593b27514" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="3a098ee1f89c398b9d6e7b5dfae9c694994f8bc4" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="8b94981ce47caac688d27fe222c3ce18b046e1ab" upstream="refs/tags/android-8.1.0_r47"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="366833ac546b94cdedcae95087d60dc1a88e57ba" upstream="refs/tags/android-8.1.0_r47"/>
