@@ -51,7 +51,7 @@
   <project name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="93f5cac07ecc294d14366828bf15e28e3db3126c" upstream="o-mr1"/>
   <project name="device-sony-loire" path="device/sony/loire" remote="sony" revision="8d5c7de27b656ba6085893d5d2992caaad12b342" upstream="o-mr1"/>
   <project name="device-sony-maple" path="device/sony/maple" remote="sony" revision="b5356bc08b9846e45985c9405e36bd0f81909adf" upstream="o-mr1"/>
-  <project name="device-sony-nile" path="device/sony/nile" remote="sony-patches" revision="e0ec011614231537a8221f2e24a7e3d6f6db4fa9" upstream="droid-src-sony-aosp-8.1.0_r52_20190206"/>
+  <project name="device-sony-nile" path="device/sony/nile" remote="hybris-patches" revision="c96620c47ea5d387bd1d70361ae69180cf2803d8" upstream="hybris-sony-aosp-8.1.0_r52_20190206"/>
   <project name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="c300d6712e0016a5b21b6a4909742369d2d49d56" upstream="o-mr1"/>
   <project name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="2e694b40dab5b9daca5bd237a6e9535d7b5b945d" upstream="o-mr1"/>
   <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="cb598f89f7ea63de5f72d7722a5e894d5d69af49" upstream="o-mr1"/>
