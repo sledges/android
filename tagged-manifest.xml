@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/NXPNFCProject/" name="NXP"/>
-  <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
-  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r52_20190206"/>
+  <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
-
+  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="droid-src-sony-aosp-8.1.0_r52_20190206"/>
+  <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
+  
   <default remote="aosp" revision="refs/tags/android-8.1.0_r52" sync-j="4"/>
   
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="a0d878573f57e1f55f0e9fc42c21821e36c16d52" upstream="master"/>
@@ -589,6 +589,6 @@
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="b86ab82fe495a215f14e49ef1d6cd6b2e4d5f41d" upstream="master"/>
   <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="82a274e02032cf4260c142490ea486e56cc98aa6" upstream="master"/>
   <project name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
-
+  
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
