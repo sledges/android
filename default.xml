@@ -14,7 +14,7 @@
   <project name="droid-hal-sony-nile" path="rpm" remote="hybris" revision="master"/>
   <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="master"/>
   <project name="mer-kernel-check" path="hybris/mer-kernel-check" remote="hybris" revision="master"/>
-  <project name="libhybris" path="external/libhybris" remote="hybris" revision="android8-initial"/>
+  <project name="libhybris" path="external/libhybris" remote="hybris" revision="master"/>
   <project name="android_external_busybox_prebuilt" path="external/busybox" remote="hybris" revision="master"/>
   <project name="android_external_selinux_stubs" path="external/selinux_stubs" remote="hybris" revision="master"/>
   <project name="android_frameworks_av" path="frameworks/av" remote="hybris-patches"/>
