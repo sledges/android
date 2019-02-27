@@ -70,7 +70,7 @@
   <project clone-depth="1" name="device/google/vrservices" revision="b290ba549b38447937773e3698e4678015550684" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="device/google/wahoo" revision="25e22473e5c306732b4cf142f31b89381f4cfb44" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="device/sample" revision="509608c76570d623c05952c8eecdc2868ca8a952" upstream="refs/tags/android-8.1.0_r52"/>
-  <project name="droid-hal-sony-nile" path="rpm" remote="hybris" revision="3396ce2e1ccf5b076c126d8fd887899098a4e14e" upstream="master"/>
+  <project name="droid-hal-sony-nile" path="rpm" remote="hybris" revision="8701716ea8321ea5559d6ad08ec70741f6afd9fb" upstream="master"/>
   <project name="hardware-qcom-display" path="hardware/qcom/display/sde" remote="sony" revision="f306f78eeb7884e1266078266e170170c23fc1c0" upstream="aosp/LA.UM.6.3.r1"/>
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="d8a7fe7303cdc5f1087a186cd95388c979fc4dad" upstream="master"/>
   <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="0acfadb2cb4afdca5154b48dea4f5bab706c2e3f" upstream="master"/>
