@@ -4,8 +4,9 @@
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/relan/" name="relan"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
+  <remote fetch="https://github.com/mer-hybris" name="hybris"/>
   
-  <default remote="aosp" revision="refs/tags/android-9.0.0_r37" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-9.0.0_r37" sync-j="24"/>
   
   <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="master"/>
   <project groups="device" name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="master"/>
@@ -687,6 +688,8 @@
   <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="master"/>
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="master"/>
   <project groups="device" name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="master"/>
+
+  <project name="droid-src-sony-ganges-pie" path="rpm" remote="hybris" revision="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>

@@ -4,8 +4,9 @@
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/relan/" name="relan"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
+  <remote fetch="https://github.com/mer-hybris" name="hybris"/>
   
-  <default remote="aosp" revision="refs/tags/android-9.0.0_r37" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-9.0.0_r37" sync-j="24"/>
   
   <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="947ac4ebc9100cd90ef7fb1607c813d79d1f43f6" upstream="master"/>
   <project groups="device" name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="b8a8935fe81671731dcc2672700a2bb67851ed82" upstream="master"/>
@@ -687,6 +688,8 @@
   <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="b77244d7f8cbfc0ed4995c2988fb2bbba04656e2" upstream="master"/>
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
   <project groups="device" name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="743c35040a50043c96c7628cece489da24974729" upstream="master"/>
+
+  <project name="droid-src-sony-ganges-pie" path="rpm" remote="hybris" upstream="master" revision="efbb5eac038b2267bfdcc7044bd4e9a29bb8e45e"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
