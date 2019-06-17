@@ -1,0 +1,3 @@
+<reference>
+    <device name="sony-ganges" url="https://github.com/mer-hybris/android.git" branch="sony-ganges-aosp-pie"/>
+</reference>
