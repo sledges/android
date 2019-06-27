@@ -18,27 +18,27 @@
   <project groups="device" name="device-sony-common" path="device/sony/common" remote="sony" revision="b6ad9f96e0becc637b55efe2f522c1306bdcb458" upstream="p-mr1">
     <linkfile dest="hardware/qcom/sdm845/Android.mk" src="misc/no-op/Android.mk"/>
   </project>
-  <project groups="device" name="device-sony-common-headers" path="kernel/sony/msm-4.9/common-headers" remote="sony" revision="1926fbb1c128d3d8f249bd8407cbbee67fee15ac" upstream="aosp/LE.UM.2.3.2.r1.4"/>
-  <project groups="device" name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="27a4fb6eb6e1cf584487090110fd5c32685083f6" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-dora" path="device/sony/dora" remote="sony" revision="f7577f93bf6261f538c9273635ab5c4bacb15a7f" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-ganges" path="device/sony/ganges" remote="sony" revision="92e59c2298e81d77281338c5bea5f79be6380d17" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-kagura" path="device/sony/kagura" remote="sony" revision="9647402151c002e92c399a39bf122bed011b3e3c" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-keyaki" path="device/sony/keyaki" remote="sony" revision="d409dfd17e725513c1f234e772ce56c9ccde84cf" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-kirin" path="device/sony/kirin" remote="sony" revision="0491c14e4f0ba696c05319b9b662fc746e21d05d" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-kugo" path="device/sony/kugo" remote="sony" revision="6f10db682c0664b6d8eb52f97b7700716bf6de16" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="9053c0d771912f467316774fc68f279c00fb51ff" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-common-headers" path="kernel/sony/msm-4.9/common-headers" remote="sony" revision="5c5d2f99b9b31581b7e9c1bd622757862e790a00" upstream="aosp/LE.UM.2.3.2.r1.4"/>
+  <project groups="device" name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="48330ec597467b5f05714eb6f82f67416ecb7e93" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-dora" path="device/sony/dora" remote="sony" revision="e2295bf2ff3a75f8853849bc1109162ce80ab890" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-ganges" path="device/sony/ganges" remote="sony" revision="5034b7c44c9b8735f3d6b227ebd07630fc07a59d" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-kagura" path="device/sony/kagura" remote="sony" revision="221cd27989b90495798a7f5149939819ea5b0d40" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-keyaki" path="device/sony/keyaki" remote="sony" revision="8028e3c04b32470331c39664c2c86e190dc2915b" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-kirin" path="device/sony/kirin" remote="sony" revision="13a50d5234df36316a1f91da48ca4482865c9c38" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-kugo" path="device/sony/kugo" remote="sony" revision="6e7ee1bac1fb324a5e1f6fca1e9735fc38967009" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="59b1b0abbfa576a963a0817f0f0ca0cc3c7a74bd" upstream="p-mr1"/>
   <project groups="device" name="device-sony-loire" path="device/sony/loire" remote="sony" revision="6db56381d6c607ddd199c618785e366caad1cb95" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-maple" path="device/sony/maple" remote="sony" revision="fbca7f33ccf6b0f192d0bffca6fbf6e5512bf121" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-mermaid" path="device/sony/mermaid" remote="sony" revision="a86362e5db0a7ce5f294837b4e2c2728ba47fa25" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-nile" path="device/sony/nile" remote="sony" revision="f81ea0b5507000502815e93f48b9d9f6151434a6" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="badd8174b5bf97535836df0b5df507c9943ffb8c" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="2a3a9383478da348e0a04202dc55240a7d2e7d46" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-maple" path="device/sony/maple" remote="sony" revision="7f1e99b7c4bb7d75ad50e3d85a5961fefef945cf" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-mermaid" path="device/sony/mermaid" remote="sony" revision="80914c97698983188b1aa86a8ea415e3fd5eec49" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-nile" path="device/sony/nile" remote="sony" revision="169064690f5c54488d44fbd3dae5624ae57f992a" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="29bf629ec567afa33e59ce323c1ddfa0a47cd2b9" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="df5daf3aebcf96e45051cb9f8492d9dfcb31bdbf" upstream="p-mr1"/>
   <project groups="device" name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="8f45151539677b9c275a559e125376bd091a8a64" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="b96f69ff94f6f7b29f91463a6c276b6bc1d63575" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-tama" path="device/sony/tama" remote="sony" revision="f484e08412e52e6ff4f777ece49be48e777be9cb" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-tone" path="device/sony/tone" remote="sony" revision="1e80efa4300ca4f4658706d7a5b467caa38ee151" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="37631fa1eb1d78d3672adca5bb4c44a86cff3eb8" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="42b6036e7425f66e26b13071e2a2496b10a4e65a" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="b1e64dd8dc1129c106e6a8453369cc0cfa1b7be1" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-tama" path="device/sony/tama" remote="sony" revision="ff68cb57d427767b263b532f8e2d74fddbba80ab" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-tone" path="device/sony/tone" remote="sony" revision="6a5bafbb2a603d0933dc91a30f38d0c2cf37124d" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="18435aa29889e8d4a4fe16888c3c2eb987bcbe0f" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="c83cea90b31a22d616f97470fe1a76f8b336f1d3" upstream="p-mr1"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" revision="40113d035473d35c56cf62e9801ddaed8d7c16ac" upstream="refs/tags/android-9.0.0_r37"/>
   <project groups="pdk" name="device/generic/goldfish" revision="eabd93d25de5a95d6544822d62af6744176fd5e6" upstream="refs/tags/android-9.0.0_r37"/>
   <project groups="device,broadcom_pdk,generic_fs,pdk" name="device/google/atv" revision="30362305d450145e435b07642cdb3b9d42a1b461" upstream="refs/tags/android-9.0.0_r37"/>
