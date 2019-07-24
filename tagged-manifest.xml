@@ -27,7 +27,7 @@
   <project groups="device" name="device-sony-kirin" path="device/sony/kirin" remote="sony" revision="13a50d5234df36316a1f91da48ca4482865c9c38" upstream="p-mr1"/>
   <project groups="device" name="device-sony-kugo" path="device/sony/kugo" remote="sony" revision="6e7ee1bac1fb324a5e1f6fca1e9735fc38967009" upstream="p-mr1"/>
   <project groups="device" name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="59b1b0abbfa576a963a0817f0f0ca0cc3c7a74bd" upstream="p-mr1"/>
-  <project groups="device" name="device-sony-loire" path="device/sony/loire" remote="sony" revision="6db56381d6c607ddd199c618785e366caad1cb95" upstream="p-mr1"/>
+  <project groups="device" name="device-sony-loire" path="device/sony/loire" remote="sony" revision="b18d038bbac9bc9dc1fde351da190ad7251f715f" upstream="p-mr1"/>
   <project groups="device" name="device-sony-maple" path="device/sony/maple" remote="sony" revision="7f1e99b7c4bb7d75ad50e3d85a5961fefef945cf" upstream="p-mr1"/>
   <project groups="device" name="device-sony-mermaid" path="device/sony/mermaid" remote="sony" revision="80914c97698983188b1aa86a8ea415e3fd5eec49" upstream="p-mr1"/>
   <project groups="device" name="device-sony-nile" path="device/sony/nile" remote="sony" revision="169064690f5c54488d44fbd3dae5624ae57f992a" upstream="p-mr1"/>
