@@ -6,39 +6,39 @@
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
   <remote fetch="https://github.com/mer-hybris" name="hybris"/>
   
-  <default remote="aosp" revision="refs/tags/android-9.0.0_r37" sync-j="24"/>
+  <default remote="aosp" revision="refs/tags/android-9.0.0_r44" sync-j="24"/>
   
   <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="master"/>
   <project groups="device" name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="master"/>
   <project groups="device" name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
-  <project groups="device" name="device-sony-akari" path="device/sony/akari" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-common" path="device/sony/common" remote="sony" revision="p-mr1">
+  <project groups="device" name="device-sony-akari" path="device/sony/akari" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-common" path="device/sony/common" remote="sony" revision="master">
     <linkfile dest="hardware/qcom/sdm845/Android.mk" src="misc/no-op/Android.mk"/>
   </project>
   <project groups="device" name="device-sony-common-headers" path="kernel/sony/msm-4.9/common-headers" remote="sony" revision="aosp/LE.UM.2.3.2.r1.4"/>
-  <project groups="device" name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-dora" path="device/sony/dora" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-ganges" path="device/sony/ganges" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-kagura" path="device/sony/kagura" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-keyaki" path="device/sony/keyaki" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-kirin" path="device/sony/kirin" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-kugo" path="device/sony/kugo" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-loire" path="device/sony/loire" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-maple" path="device/sony/maple" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-mermaid" path="device/sony/mermaid" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-nile" path="device/sony/nile" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-tama" path="device/sony/tama" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-tone" path="device/sony/tone" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="p-mr1"/>
-  <project groups="device" name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="p-mr1"/>
+  <project groups="device" name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-dora" path="device/sony/dora" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-ganges" path="device/sony/ganges" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-kagura" path="device/sony/kagura" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-keyaki" path="device/sony/keyaki" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-kirin" path="device/sony/kirin" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-kugo" path="device/sony/kugo" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-loire" path="device/sony/loire" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-maple" path="device/sony/maple" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-mermaid" path="device/sony/mermaid" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-nile" path="device/sony/nile" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-tama" path="device/sony/tama" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-tone" path="device/sony/tone" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="master"/>
   <project groups="pdk-cw-fs,pdk" name="device/common"/>
   <project groups="pdk" name="device/generic/goldfish"/>
   <project groups="device,broadcom_pdk,generic_fs,pdk" name="device/google/atv"/>
@@ -448,6 +448,7 @@
   <project groups="pdk" name="platform/hardware/google/av" path="hardware/google/av"/>
   <project groups="pdk,easel" name="platform/hardware/google/easel" path="hardware/google/easel"/>
   <project groups="pdk" name="platform/hardware/google/interfaces" path="hardware/google/interfaces"/>
+  <project groups="bonito,crosshatch" name="platform/hardware/google/pixel" path="hardware/google/pixel"/>
   <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces"/>
   <project groups="invensense,pdk" name="platform/hardware/invensense" path="hardware/invensense"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware"/>
@@ -464,6 +465,15 @@
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="wahoo" name="platform/hardware/qcom/neuralnetworks/hvxservice" path="hardware/qcom/neuralnetworks/hvxservice"/>
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
+  <project groups="vendor,qcom_sdm710" name="platform/hardware/qcom/sdm710/data/ipacfg-mgr" path="hardware/qcom/sdm710/data/ipacfg-mgr"/>
+  <project groups="qcom_sdm710" name="platform/hardware/qcom/sdm710/display" path="hardware/qcom/sdm710/display">
+    <linkfile dest="hardware/qcom/sdm710/Android.mk" src="os_pickup.mk"/>
+    <linkfile dest="hardware/qcom/sdm710/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project groups="qcom_sdm710" name="platform/hardware/qcom/sdm710/gps" path="hardware/qcom/sdm710/gps"/>
+  <project groups="qcom_sdm710" name="platform/hardware/qcom/sdm710/media" path="hardware/qcom/sdm710/media"/>
+  <project groups="qcom_sdm710" name="platform/hardware/qcom/sdm710/thermal" path="hardware/qcom/sdm710/thermal"/>
+  <project groups="qcom_sdm710" name="platform/hardware/qcom/sdm710/vr" path="hardware/qcom/sdm710/vr"/>
   <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr/sdm845" revision="master"/>
   <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/gps" path="hardware/qcom/gps" revision="master"/>
   <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/media" path="hardware/qcom/media/sdm845" revision="master"/>
