@@ -695,7 +695,7 @@
   </project>
   <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="264d62800cf2dd3902a51bf2fa6bc789df4053aa" upstream="p-mr0"/>
   <project groups="device" name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="b47a64eaa434ab3121720df01f7be40222cd2ea9" upstream="master"/>
-  <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="0201c362f9df93685c6f2c7d2a62ea2e86b799b5" upstream="master"/>
+  <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="c45ce3b612ca8f8af4e12d1ddb2bf9e8d8ead980" upstream="master"/>
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
   <project groups="device" name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="743c35040a50043c96c7628cece489da24974729" upstream="master"/>
 
