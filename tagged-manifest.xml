@@ -2,5 +2,5 @@
 <manifest>
   <remote fetch="https://github.com/sledges" name="hybris"/>
   <include name="tagged-localbuild.xml"/>
-  <project name="droid-src-sony" path="rpm" remote="hybris" revision="a72e660e282bb0e079b51eb3dd2aa25df37eaf8e"/>
+  <project name="droid-src-sony" path="rpm" remote="hybris" revision="6acd1af2d664ffc60cd635d723774588f1fcc246"/>
 </manifest>
