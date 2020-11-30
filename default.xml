@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/sledges" name="hybris"/>
+  <remote fetch="https://github.com/mer-hybris" name="hybris"/>
   <include name="localbuild.xml"/>
-  <project name="droid-src-sony" path="rpm" remote="hybris" revision="test-10"/>
+  <project name="droid-src-sony" path="rpm" remote="hybris" revision="master"/>
 </manifest>
